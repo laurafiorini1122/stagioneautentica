@@ -52,7 +52,6 @@ import LaVoyeur from "./pages/racconti/LaVoyeur.tsx";
 import LaRoutineDonna from "./pages/racconti/LaRoutineDonna.tsx";
 import LecoDelCapoDonna from "./pages/racconti/LecoDelCapoDonna.tsx";
 import LabirintoBurocraticoDonna from "./pages/racconti/LabirintoBurocraticoDonna.tsx";
-import FinaleLauraLabirinto from "./pages/racconti/FinaleLauraLabirinto.tsx";
 import IlConsiglioDonna from "./pages/racconti/IlConsiglioDonna.tsx";
 import IlLinguaggioDonna from "./pages/racconti/IlLinguaggioDonna.tsx";
 import LinvasioneDonna from "./pages/racconti/LinvasioneDonna.tsx";
@@ -115,7 +114,7 @@ const App = () => (
           <Route path="/una-donna/la-routine" element={<LaRoutineDonna />} />
           <Route path="/una-donna/leco-del-capo" element={<LecoDelCapoDonna />} />
           <Route path="/una-donna/labirinto-burocratico" element={<LabirintoBurocraticoDonna />} />
-          <Route path="/una-donna/labirinto-burocratico/finale-laura" element={<FinaleLauraLabirinto />} />
+          <Route path="/una-donna/labirinto-burocratico/finale-laura" element={<FinaleLaura />} />
           <Route path="/una-donna/il-consiglio" element={<IlConsiglioDonna />} />
           <Route path="/una-donna/il-linguaggio" element={<IlLinguaggioDonna />} />
           <Route path="/una-donna/linvasione" element={<LinvasioneDonna />} />
