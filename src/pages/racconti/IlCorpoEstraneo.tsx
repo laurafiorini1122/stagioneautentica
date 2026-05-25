@@ -3,12 +3,13 @@ import { Link } from "react-router-dom";
 import img from "@/assets/il-corpo-estraneo.jpg";
 
 const paragrafi = [
-  "Per decenni il corpo era stato un mezzo. Un involucro obbediente che lo trasportava al lavoro, che restava seduto per ore, che mangiava e dormiva secondo i ritmi della produzione. Era un servitore muto, un'estensione biologica della sua funzione.",
-  "Con la pensione, il silenzio esterno attivò i rumori interni. L'uomo iniziò a sentire il peso della propria carne. Senza lo scopo a distrarlo, ogni battito del cuore divenne un ticchettio irregolare, il segnale di un congegno che perdeva colpi. Non era più un uomo che abitava un corpo; era un osservatore prigioniero di un macchinario usurato.",
-  "La garanzia era scaduta. L'uomo si sentiva un modello obsoleto per cui non esistevano più componenti originali. Ogni piccolo dolore non era un segnale di allarme, ma una conferma di smantellamento.",
-  "L'ipocondria divenne la sua nuova mansione a tempo pieno. Iniziò a monitorarsi con ferocia. Misurava la pressione, contava i respiri, analizzava ogni macchia sulla pelle come se fosse ruggine su una carrozzeria abbandonata. Ma più cercava di capire il guasto, più il guasto si estendeva. La medicina non era una cura, era solo una perizia tecnica che confermava l'irreversibilità del danno.",
-  "Un mattino si accorse di non potersi più muovere. Non era paralisi, era inerzia. La volontà, l'ultima molla che teneva insieme i pezzi, si era spezzata. Restò a guardare il soffitto, ascoltando il proprio respiro farsi sempre più sottile.",
-  "L'uomo non aspettava il medico, né la guarigione. Aspettava solo che l'attrito finale fermasse definitivamente il movimento dei polmoni. Era diventato un oggetto da smaltire, un rimasuglio di carne e ossa che la polvere stava lentamente ricoprendo, trasformandolo in un grumo di materia inerte, definitivamente fuori servizio.",
+  "Per quarant'anni aveva usato le mani senza pensarci. La catena di montaggio non richiedeva presenza mentale, solo presenza fisica: un peso che si spostava, si piegava, premeva il tasto al momento giusto. Il corpo faceva, e lui — se c'era un lui — aspettava da qualche parte dietro agli occhi.",
+  "Poi era arrivata la pensione. Niente di drammatico: una busta paga in meno, una mattina senza sveglia. Il primo giorno rimase seduto in cucina fino alle undici, e non sapeva cosa farne — delle mani, soprattutto. Le guardava come si guarda un attrezzo che non serve più.",
+  "Cominciò a svegliarsi di notte per il cuore. Non dolore, ma coscienza: il ticchettio sordo sotto lo sterno che non aveva mai sentito prima. Forse c'era sempre stato e il rumore della fabbrica lo copriva. Adesso il silenzio era completo, e ogni battito sembrava chiedere qualcosa.",
+  "Il medico disse che stava bene. Disse \"per la sua età\" e lui non riuscì a sentire il resto della frase. Comprò uno sfigmomanometro. Poi un secondo, convinto che il primo misurasse male. Passava le mattine al tavolo con il braccio fasciato, aspettando conferme che non arrivavano mai — o che arrivavano e non bastavano.",
+  "Sua figlia chiamava ogni domenica. \"Come stai?\" \"Bene,\" diceva lui. Non sapeva come spiegare che non era una malattia, era qualcos'altro: come accorgersi di qualcosa che ci si porta dietro da sempre e a cui non si era mai dato un nome.",
+  "Un mattino non si alzò. Non era stanchezza — era più semplice di così. Non c'era nessun posto dove andare, e il corpo lo sapeva prima di lui.",
+  "Rimase a letto fino a mezzogiorno. Ascoltava il proprio respiro e cercava di ricordare quando aveva smesso di sentirlo come qualcosa di suo.",
 ];
 
 const IlCorpoEstraneo = () => (
