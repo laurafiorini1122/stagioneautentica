@@ -33,8 +33,8 @@ const FinaleLaura = () => {
       </article>
 
       <div className="mt-16 mb-8">
-        <Link to="/una-donna/letichetta" className="font-sans text-sm uppercase tracking-[0.25em] text-muted-foreground hover:text-foreground transition-colors">
-          ← Torna a L'etichetta
+        <Link to="/una-donna/labirinto-burocratico" className="font-sans text-sm uppercase tracking-[0.25em] text-muted-foreground hover:text-foreground transition-colors">
+          ← Torna al Labirinto burocratico
         </Link>
       </div>
     </PageShell>
