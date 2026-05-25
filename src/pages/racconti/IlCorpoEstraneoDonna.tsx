@@ -4,10 +4,11 @@ import img from "@/assets/il-corpo-estraneo-donna.jpg";
 import ProponiFinale from "@/components/ProponiFinale";
 
 const paragrafi = [
-  "Per decenni il corpo era stato un mezzo. Un involucro obbediente che la trasportava al lavoro, che restava seduto per ore, che mangiava e dormiva secondo i ritmi della produzione. Era un servitore muto, un'estensione biologica della sua funzione.",
-  "Con la pensione, il silenzio esterno attivò i rumori interni. La donna iniziò a sentire il peso della propria carne. Senza lo scopo a distrarla, ogni battito del cuore divenne un ticchettio irregolare, il segnale di un congegno che perdeva colpi. Non era più una donna che abitava un corpo; era un'osservatrice prigioniera di un macchinario usurato.",
-  "La garanzia era scaduta. La donna si sentiva un modello obsoleto per cui non esistevano più componenti originali. Ogni piccolo dolore non era un segnale di allarme, ma una conferma di smantellamento.",
-  "L'ipocondria divenne la sua nuova mansione a tempo pieno. Iniziò a monitorarsi con ferocia. Misurava la pressione, contava i respiri, analizzava ogni macchia sulla pelle come se fosse ruggine su una carrozzeria abbandonata. Ma più cercava di capire il guasto, più il guasto si estendeva. La medicina non era una cura, era solo una perizia tecnica che confermava l'irreversibilità del danno.",
+  "Per quarant'anni aveva usato le mani senza pensarci. La catena di montaggio non richiedeva presenza mentale, solo presenza fisica: un peso che si spostava, si piegava, premeva il tasto al momento giusto. Il corpo faceva, e lei — se c'era una lei — aspettava da qualche parte dietro agli occhi.",
+  "Poi era arrivata la pensione. Niente di drammatico: una busta paga in meno, una mattina senza sveglia. Il primo giorno rimase seduta in cucina fino alle undici, e non sapeva cosa farne — delle mani, soprattutto. Le guardava come si guarda un attrezzo che non serve più.",
+  "Cominciò a svegliarsi di notte per il cuore. Non dolore, ma coscienza: il ticchettio sordo sotto lo sterno che non aveva mai sentito prima. Forse c'era sempre stato e il rumore della fabbrica lo copriva. Adesso il silenzio era completo, e ogni battito sembrava chiedere qualcosa.",
+  "La dottoressa disse che stava bene. Disse \"per la sua età\" e lei non riuscì a sentire il resto della frase. Comprò uno sfigmomanometro. Poi un secondo, convinta che il primo misurasse male. Passava le mattine al tavolo con il braccio fasciato, aspettando conferme che non arrivavano mai — o che arrivavano e non bastavano.",
+  "Suo figlio chiamava ogni domenica. \"Come stai?\" \"Bene,\" diceva lei. Non sapeva come spiegare che non era una malattia, era qualcos'altro: come accorgersi di qualcosa che ci si porta dietro da sempre e a cui non si era mai dato un nome.",
 ];
 
 const IlCorpoEstraneoDonna = () => (
