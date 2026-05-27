@@ -4,9 +4,12 @@ import img from "@/assets/le-ultime-disposizioni-donna.jpg";
 import ProponiFinale from "@/components/ProponiFinale";
 
 const paragrafi = [
-  "Per anni, una donna aveva gestito flussi, scadenze e protocolli. La pensione le aveva tolto la funzione, lasciandola davanti a un'intollerabile variabile: il tempo tra la fine biologica e la chiusura della pratica. Decise di trasformare il proprio post-mortem in un progetto amministrativo impeccabile.",
-  "Iniziò con la donazione degli organi. Un atto burocratico puro. Compilò i moduli, studiò i codici di compatibilità. Poi subentrò il dubbio sulle tempistiche mediche che avrebbero alterato il cronoprogramma della cerimonia. Troppe incognite esterne. Strappò il modulo.",
-  "Passò alla scelta tra cremazione e tumulazione. Ogni sera, seduta al vecchio comò di mogano, redigeva il protocollo definitivo: «Disposizioni Anticipate di Trattamento del Corpo». Indicava il cimitero, il quadrante, la fila, persino il carattere tipografico per l'epitaffio. Ma ogni mattina l'ossessione del dettaglio perfetto rivelava un difetto logico. Si alzava, strappava il foglio della sera prima e ricominciava.",
+  "Per quarant'anni aveva gestito flussi, scadenze e protocolli. La pensione le aveva tolto la funzione e lasciato in mano una variabile che non sapeva come trattare: il tempo tra la fine biologica e la chiusura della pratica. L'unico modo che conosceva per affrontare un problema aperto era trasformarlo in un progetto.",
+  "Iniziò con la donazione degli organi. Compilò i moduli, studiò i codici di compatibilità, mise giù una scaletta. Poi si bloccò sulle tempistiche mediche: troppe incognite esterne avrebbero alterato il cronoprogramma della cerimonia. Strappò il modulo.",
+  "Passò alla scelta tra cremazione e tumulazione. Ogni sera, al vecchio comò di mogano, redigeva quello che intitolava «Disposizioni Anticipate di Trattamento del Corpo»: il cimitero, il quadrante, la fila, il carattere tipografico dell'epitaffio. Ogni mattina l'ossessione del dettaglio rivelava un difetto logico. Si alzava, strappava il foglio, ricominciava.",
+  "Una notte trovò l'incastro: cremazione, ceneri affidate alla natura, nessuna cerimonia. Lasciò il foglio sul comò e andò a dormire.",
+  "Dietro il divano c'era una vecchia presa elettrica che non aveva mai controllato.",
+  "Si svegliò nel fumo.",
 ];
 
 const LeUltimeDisposizioniDonna = () => (
