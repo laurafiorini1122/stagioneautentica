@@ -3,13 +3,15 @@ import { Link } from "react-router-dom";
 import img from "@/assets/le-ultime-disposizioni.jpg";
 
 const paragrafi = [
-  "Per anni, un uomo aveva gestito flussi, scadenze e protocolli. La pensione gli aveva tolto la funzione, lasciandolo davanti a un'intollerabile variabile: il tempo tra la fine biologica e la chiusura della pratica. Decise di trasformare il proprio post-mortem in un progetto amministrativo impeccabile.",
-  "Iniziò con la donazione degli organi. Un atto burocratico puro. Compilò i moduli, studiò i codici di compatibilità. Poi subentrò il dubbio sulle tempistiche mediche che avrebbero alterato il cronoprogramma della cerimonia. Troppe incognite esterne. Strappò il modulo.",
-  "Passò alla scelta tra cremazione e tumulazione. Ogni sera, seduto al vecchio comò di mogano, redigeva il protocollo definitivo: «Disposizioni Anticipate di Trattamento del Corpo». Indicava il cimitero, il quadrante, la fila, persino il carattere tipografico per l'epitaffio. Ma ogni mattina l'ossessione del dettaglio perfetto rivelava un difetto logico. Si alzava, strappava il foglio della sera prima e ricominciava.",
-  "Poi giunse la notte dell'illuminazione. Trovò l'incastro perfetto. Tre punti chiari, irrevocabili. Cremazione, affidamento delle ceneri alla natura, nessuna cerimonia. Per la prima volta dopo anni, provò la calma di un faldone archiviato correttamente. Lasciò il foglio sul comò e andò a dormire.",
-  "Il caos, che non conosce protocolli, entrò da una vecchia presa elettrica dietro il divano. Un cortocircuito silenzioso.",
-  "L'uomo si svegliò nel fumo. Il panico non fu per la vita che se ne andava, ma per l'ordine che si dissolveva. Tentò di raggiungere il corridoio, verso il comò, verso il suo manuale di istruzioni. Voleva salvare il piano, non il corpo. Crollò a pochi metri dalla camera da letto.",
-  "Le fiamme raggiunsero il comò di mogano. La lettera definitiva si arricciò, annerì e divenne cenere. L'uomo morì senza identità residua. Fu cremato secondo il protocollo d'ufficio per i casi di forza maggiore, e le sue ceneri finirono in un'urna comune, anonima e grigia. Il caos aveva vinto, e l'ultima pratica era stata chiusa con un timbro d'ufficio, senza che nessuna delle sue volontà fosse mai stata letta.",
+  "Per quarant'anni aveva gestito flussi, scadenze e protocolli. La pensione gli aveva tolto la funzione e lasciato in mano una variabile che non sapeva trattare: il tempo tra la fine biologica e la chiusura della pratica. L'unico modo che conosceva per affrontare un problema aperto era trasformarlo in un progetto.",
+  "Iniziò con la donazione degli organi. Compilò i moduli, studiò i codici di compatibilità, mise giù una scaletta. Poi si bloccò sulle tempistiche mediche: troppe incognite esterne avrebbero alterato il cronoprogramma della cerimonia. Strappò il modulo.",
+  "Passò alla scelta tra cremazione e tumulazione. Ogni sera, al vecchio comò di mogano, redigeva quello che intitolava «Disposizioni Anticipate di Trattamento del Corpo»: il cimitero, il quadrante, la fila, il carattere tipografico dell'epitaffio. Ogni mattina l'ossessione del dettaglio rivelava un difetto logico. Si alzava, strappava il foglio, ricominciava.",
+  "Una notte trovò l'incastro: cremazione, ceneri affidate alla natura, nessuna cerimonia. Lasciò il foglio sul comò e andò a dormire.",
+  "Dietro il divano c'era una vecchia presa elettrica che non aveva mai controllato.",
+  "Si svegliò nel fumo. Non andò verso la porta. Andò verso il corridoio, verso il comò, verso il foglio. Crollò a tre metri dalla camera da letto.",
+  "Le fiamme raggiunsero il comò. La lettera annerì e si consumò.",
+  "I soccorritori non trovarono documenti d'identità utilizzabili. Il corpo fu cremato secondo il protocollo per i casi di forza maggiore. Le ceneri finirono in un'urna comune, grigia, su uno scaffale di un deposito comunale.",
+  "Aveva ottenuto la cremazione, almeno quella.",
 ];
 
 const LeUltimeDisposizioni = () => (
