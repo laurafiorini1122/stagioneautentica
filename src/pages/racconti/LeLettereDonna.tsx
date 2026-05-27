@@ -4,9 +4,12 @@ import img from "@/assets/le-lettere-donna.jpg";
 import ProponiFinale from "@/components/ProponiFinale";
 
 const paragrafi = [
-  "Dopo una vita trascorsa a ingoiare parole non dette, a macerare silenzi imposti e a recitare copioni altrui, una donna si ritrovò in pensione con un fardello inaspettato: il peso di tutte le risposte mancate. Anni di riunioni in cui non era riuscita a sostenere la sua idea, di conversazioni tra amiche in cui la battuta giusta le era venuta in mente solo ore dopo, di piccoli e grandi soprusi subiti in silenzio.",
-  "E così, con un tempo infinito a disposizione e un'ossessione crescente, decise di dedicare la sua intera esistenza a un compito: riscrivere la storia, almeno sulla carta.",
-  "Scriveva lettere, lunghissime e dettagliate, a colleghi ormai lontani, ad amiche di cui aveva perso le tracce, a conoscenti con i quali aveva questioni rimaste in sospeso. Cercava con maniacale precisione la frase perfetta, la battuta folgorante che, durante un contrasto, non aveva avuto la prontezza di esprimere.",
+  "Dopo quarant'anni di lavoro, una donna aveva portato a casa due cose: la pensione e un elenco di torti che teneva in mente da decenni.",
+  "Non torti grandi. Il capufficio che nel '94 si era preso il merito di un'idea sua davanti al direttore, e lei aveva lasciato perdere. Un'amica che a una cena aveva detto una cosa falsa su di lei davanti a tutti, e la donna si era limitata a sorridere. Cose così.",
+  "Ma ciò che le rodeva di più era altro. In certi momenti in cui una discussione si accendeva, una voce saliva di tono, si era sempre bloccata. Gli altri sapevano essere aggressivi e lucidi insieme, tirare fuori le parole giuste con una sicurezza che non lasciava spazio. Lei no. Anche quando capiva che avevano torto — e spesso ce l'avevano — rimaneva in silenzio, schiacciata da quella velocità. La risposta giusta le arrivava ore dopo, a volte il giorno seguente, mentre era sola in macchina o stava per addormentarsi. Perfetta, inattaccabile, inutile.",
+  "In pensione aveva capito che le risposte verbali non sarebbero mai arrivate in tempo. Aveva smesso di aspettarle.",
+  "Cominciò pertanto a scrivere lettere. Poteva costruire a freddo quello che non era riuscita a dire a caldo — senza una voce che la sovrastava, senza quella sensazione di vuoto in testa mentre l'altro parlava.",
+  "Le scriveva a mano, su carta pesante, con la stilografica comprata apposta. Le rileggeva, correggeva, riscriveva. Ci metteva settimane su una sola. Non bastava che fossero giuste — dovevano essere definitive. Doveva trovare la frase che non ammetteva repliche, quella che avrebbe chiuso ogni questione.",
 ];
 
 const LeLettereDonna = () => (
