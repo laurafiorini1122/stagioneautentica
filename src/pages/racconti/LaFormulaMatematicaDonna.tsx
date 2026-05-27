@@ -4,10 +4,12 @@ import img from "@/assets/la-formula-matematica-donna.jpg";
 import ProponiFinale from "@/components/ProponiFinale";
 
 const paragrafi = [
-  "Per decenni, una donna aveva tradotto il caos in grafici. La sua mente era un processore di statistiche, previsioni e bilanci. Poi, la pensione rimosse l'oggetto del suo calcolo.",
-  "La sua passione per i numeri la spingeva verso l'ultima, ineluttabile equazione: la data della sua morte. Non poteva accettare l'imprevedibilità di quell'evento finale. Doveva decifrarla, ridurla a una formula, a un dato certo.",
-  "Ogni mattina si recava al cimitero locale. Non cercava conforto, ma dati grezzi. Con taccuino e matita, annotava date di nascita e di morte dalle lapidi con scrupolo meticoloso.",
-  "Trascorreva i pomeriggi china sulla scrivania, trasformando la casa in un laboratorio di cabalismo numerico. Cercava la costante, il legame segreto tra il giorno del primo respiro e quello dell'ultimo. Ogni volta che credeva di aver trovato la soluzione, preparava con cura il suo ultimo giorno. Aspettava. Ma a mezzanotte il calendario girava. La donna era ancora viva. Un errore nei dati, pensava. Una variabile non considerata. Riprendeva il ciclo.",
+  "Per trent'anni aveva lavorato in un ufficio senza finestre, traducendo bilanci in cifre che altri usavano per decidere. Era brava. Forse era anche felice.",
+  "Poi arrivò la pensione. E con essa il problema: nessun dato da elaborare.",
+  "Si fissò sulla data della sua morte. Non per paura. Doveva esserci una costante tra il giorno del primo respiro e quello dell'ultimo. Doveva decifrarla, ridurla a una formula, a un dato certo.",
+  "Cominciò ad andare al cimitero ogni mattina, taccuino alla mano. Annotava date di nascita e di morte con la stessa cura con cui aveva sempre tenuto i libri contabili.",
+  "Trascorreva i pomeriggi china sulla scrivania, trasformando la casa in un laboratorio di cabalismo numerico.",
+  "Quando credeva di aver trovato la soluzione, preparava con cura quel giorno. Aspettava. Ma a mezzanotte il calendario girava. La donna era ancora viva. Un errore nei dati, pensava. Una variabile trascurata. Ricominciava.",
 ];
 
 const LaFormulaMatematicaDonna = () => (
