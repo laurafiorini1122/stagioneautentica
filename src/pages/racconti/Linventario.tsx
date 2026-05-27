@@ -3,11 +3,12 @@ import { Link } from "react-router-dom";
 import img from "@/assets/linventario.jpg";
 
 const paragrafi = [
-  "Dopo alcuni anni di pensione, in cui i giorni si erano fusi in una monotonia priva di contorni, un uomo sentì l'impellente necessità di dare un senso al suo tempo. Decise di intraprendere un compito definitivo: l'inventario di ogni oggetto in suo possesso. Non cercava un valore economico, ma una prova di passaggio. Voleva che chi un giorno si sarebbe trovato a svuotare la sua casa conoscesse il vero valore di quegli oggetti — non quello venale, ma quello intimo, quello che rappresentava un pezzo della sua vita.",
-  "L'inventario divenne rapidamente un'ossessione sistematica che divorava ogni suo istante. Ogni oggetto, anche il più insignificante, aveva diritto a un paragrafo. La sua casa si trasformò in un archivio vivente, e lui, il suo indefesso archivista, si perse tra i suoi stessi ricordi, convinto che la carta potesse trattenere la vita.",
-  "L'uomo morì un giorno qualunque. Il suo corpo fu ritrovato tra le pile di fogli e i beni catalogati.",
-  "Gli eredi arrivarono per liquidare il patrimonio. Trovarono il corposo documento e lo sfogliarono con fastidio. Cercavano numeri, trovarono parole. «Mobili vecchi», dicevano. «Argenteria da peso. Libri da macero». Le storie minuziose scritte dall'uomo erano solo un intralcio alla valutazione commerciale.",
-  "L'inventario finì in una scatola anonima, sepolto in una cantina umida. L'intero archivio di una vita venne gettato in un sacco nero. L'uomo aveva cercato di perpetuare la sua memoria attraverso gli oggetti, ma come gli oggetti stessi, anche la sua memoria si era rivelata effimera: l'oblio era completo. Non restava l'oggetto, non restava la parola, non restava l'uomo.",
+  "Dopo alcuni anni di pensione, in cui i giorni si erano fusi l'uno nell'altro, un uomo sentì il bisogno di fare qualcosa di concreto. Decise di fare l'inventario di ogni oggetto in suo possesso. Non cercava un valore economico. Voleva che chi un giorno avrebbe svuotato la sua casa sapesse cosa aveva tra le mani, non il prezzo, ma la storia.",
+  "Divenne un'ossessione. Ogni oggetto, anche il più insignificante, meritava un paragrafo. La casa si trasformò in un archivio, e lui nel suo archivista, circondato da pile di fogli che crescevano con lui.",
+  "L'uomo morì un giorno qualunque. Il suo corpo fu ritrovato tra i fogli e i beni catalogati.",
+  "Gli eredi arrivarono per liquidare il patrimonio. Trovarono il documento e lo sfogliarono con fastidio. Cercavano numeri, trovarono parole. «Mobili vecchi», dicevano. «Argenteria da peso. Libri da macero». Le storie scritte dall'uomo erano solo un intralcio.",
+  "L'inventario finì in una scatola anonima, in cantina. Il resto in un sacco nero.",
+  "Quando arrivò il momento di spedire la porcellana, qualcuno aprì la scatola. I fogli erano abbondanti e resistenti. Fecero un ottimo imballaggio.",
 ];
 
 const Linventario = () => (
