@@ -3,12 +3,16 @@ import { Link } from "react-router-dom";
 import img from "@/assets/le-lettere.jpg";
 
 const paragrafi = [
-  "Dopo una vita trascorsa a ingoiare parole non dette, a macerare silenzi imposti e a recitare copioni altrui, un uomo si ritrovò in pensione con un fardello inaspettato: il peso di tutte le risposte mancate. Anni di riunioni in cui non era riuscito a sostenere la sua idea, di conversazioni tra amici in cui la battuta giusta gli era venuta in mente solo ore dopo, di piccoli e grandi soprusi subiti in silenzio.",
-  "E così, con un tempo infinito a disposizione e un'ossessione crescente, decise di dedicare la sua intera esistenza a un compito: riscrivere la storia, almeno sulla carta.",
-  "Scriveva lettere, lunghissime e dettagliate, a colleghi ormai lontani, ad amici di cui aveva perso le tracce, a conoscenti con i quali aveva questioni rimaste in sospeso. Cercava con maniacale precisione la frase perfetta, la battuta folgorante che, durante un contrasto, non aveva avuto la prontezza di esprimere.",
-  "Si ritrovò intrappolato in un vortice ossessivo. Riscriveva lettere già redatte, aggiungendo dettagli, sfumature, cercando le parole definitive. Ogni lettera era un tentativo di riprendere il controllo di un passato sfuggito.",
-  "Il culmine di questa ossessione arrivò quando decise che quelle lettere non potevano essere inviate subito. Non bastava avere l'ultima parola; doveva essere l'ultima parola in assoluto. Scrisse testamenti epistolari, confidando a un notaio l'incarico di spedire le missive solo dopo la sua morte. Avrebbe finalmente vinto, in un silenzio tombale che avrebbe consacrato la sua ragione.",
-  "Ma la morte, con la sua indifferente puntualità, arrivò. E le lettere, sigillate e pronte per la spedizione, rimasero lì, tra le mani del notaio, pesanti di parole mai udite, di verità mai comprese. Il mondo continuò a girare, inconsapevole delle grandi e piccole vittorie che l'uomo aveva così meticolosamente preparato. Lui non ottenne l'ultima parola. Ottenne solo il nulla, il medesimo nulla dal quale aveva tentato disperatamente di risorgere attraverso l'inchiostro.",
+  "Dopo quarant'anni di lavoro, un uomo aveva portato a casa due cose: la pensione e un elenco di torti che teneva in mente da decenni.",
+  "Non torti grandi. Il capufficio che nel '94 si era preso il merito di un'idea sua davanti al direttore, e lui aveva lasciato perdere. L'amico che a una cena aveva detto una cosa falsa su di lui davanti a tutti, e l'uomo si era limitato a sorridere. Cose così.",
+  "Ma ciò che lo rodeva di più era altro. In certi momenti in cui una discussione si accendeva, una voce saliva di tono, si era sempre bloccato. Gli altri sapevano essere aggressivi e lucidi insieme, tirare fuori le parole giuste con una sicurezza che non lasciava spazio. Lui no. Anche quando capiva che avevano torto — e spesso ce l'avevano — rimaneva in silenzio, schiacciato da quella velocità. La risposta giusta gli arrivava ore dopo, a volte il giorno seguente, mentre era solo in macchina o stava per addormentarsi. Perfetta, inattaccabile, inutile.",
+  "In pensione aveva capito che le risposte verbali non sarebbero mai arrivate in tempo. Aveva smesso di aspettarle.",
+  "Cominciò quindi a scrivere lettere. Poteva costruire a freddo quello che non era riuscito a dire a caldo senza una voce che lo sovrastava, senza quella sensazione di vuoto in testa mentre l'altro parlava.",
+  "Le scriveva a mano, su carta pesante, con la stilografica comprata apposta. Le rileggeva, correggeva, riscriveva. Ci metteva settimane su una sola. Non bastava che fossero giuste, dovevano essere definitive. Doveva trovare la frase che non ammetteva repliche, quella che avrebbe chiuso ogni questione.",
+  "Ma ogni lettera finita sembrava ancora perfettibile e, pertanto, non riusciva a spedirle. Inoltre, se le avesse mandate da vivo, l'altro avrebbe potuto rispondere. E lui si sarebbe ritrovato di nuovo lì, a cercare le parole, a perdere.",
+  "Aveva consegnato tutto a un notaio discreto, con istruzioni precise: spedire solo dopo la sua morte. Così non ci sarebbe stata risposta.",
+  "Morì di novembre, un giovedì mattina.",
+  "Il notaio rispettò le istruzioni. Alcune lettere arrivarono a indirizzi sbagliati. Tre tornarono al mittente. Le altre, probabilmente, vennero aperte e buttate via.",
 ];
 
 const LeLettere = () => (
