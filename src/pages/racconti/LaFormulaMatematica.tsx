@@ -3,12 +3,14 @@ import { Link } from "react-router-dom";
 import img from "@/assets/la-formula-matematica.jpg";
 
 const paragrafi = [
-  "Per decenni, un uomo aveva tradotto il caos in grafici. La sua mente era un processore di statistiche, previsioni e bilanci. Poi, la pensione rimosse l'oggetto del suo calcolo.",
-  "La sua passione per i numeri lo spingeva verso l'ultima, ineluttabile equazione: la data della sua morte. Non poteva accettare l'imprevedibilità di quell'evento finale. Doveva decifrarla, ridurla a una formula, a un dato certo.",
-  "Ogni mattina si recava al cimitero locale. Non cercava conforto, ma dati grezzi. Con taccuino e matita, annotava date di nascita e di morte dalle lapidi con scrupolo meticoloso.",
-  "Trascorreva i pomeriggi chino sulla scrivania, trasformando la casa in un laboratorio di cabalismo numerico. Cercava la costante, il legame segreto tra il giorno del primo respiro e quello dell'ultimo. Ogni volta che credeva di aver trovato la soluzione, preparava con cura il suo ultimo giorno. Aspettava. Ma a mezzanotte il calendario girava. L'uomo era ancora vivo. Un errore nei dati, pensava. Una variabile non considerata. Riprendeva il ciclo.",
-  "La ricerca divenne la sua unica forma di esistenza. Non gli importava più della morte, ma del calcolo. Era diventato una variabile insignificante di un'equazione irrisolvibile.",
-  "Un giorno qualunque, una data che non figurava in nessun grafico, la morte arrivò. Non ci furono presagi numerici. Lo colse mentre rileggeva una sequenza di cifre incomprensibili su un taccuino macchiato. L'incognita finale era rimasta tale, e il suo corpo non era che un altro dato errato, pronto per essere cancellato.",
+  "Per trent'anni aveva lavorato in un ufficio senza finestre, traducendo bilanci in cifre che altri usavano per decidere. Era bravo. Forse era anche felice.",
+  "Poi arrivò la pensione. E con essa il problema: nessun dato da elaborare.",
+  "Si fissò sulla data della sua morte. Non per paura. Doveva esserci una costante tra il giorno del primo respiro e quello dell'ultimo. Doveva decifrarla, ridurla a una formula, a un dato certo.",
+  "Cominciò ad andare al cimitero ogni mattina, taccuino alla mano. Annotava date di nascita e di morte con la stessa cura con cui aveva sempre tenuto i libri contabili.",
+  "Trascorreva i pomeriggi chino sulla scrivania, trasformando la casa in un laboratorio di cabalismo numerico.",
+  "Quando credeva di aver trovato la soluzione, preparava con cura il suo ultimo giorno. Aspettava. Ma a mezzanotte il calendario girava. L'uomo era ancora vivo. Un errore nei dati, pensava. Una variabile trascurata. Ricominciava.",
+  "Dopo un po' smise di prepararsi per la morte e la ricerca divenne la sua unica forma di esistenza.",
+  "Morì un martedì qualunque, mentre rileggeva una sequenza di cifre su un taccuino macchiato di caffè. Nessun presagio. Fuori, qualcuno camminava tra le lapidi con un taccuino in mano.",
 ];
 
 const LaFormulaMatematica = () => (
