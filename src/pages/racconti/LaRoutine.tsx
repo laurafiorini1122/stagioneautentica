@@ -13,7 +13,7 @@ const paragrafi = [
   "Al terrore di buttare via le ore si aggiungeva la frase con cui era cresciuto, scolpita nella mente: «prima il dovere, poi il piacere». Neanche la pensione era riuscita a liberarlo da quel giogo.",
   "Un pomeriggio, nella sala d'attesa del medico — uno dei pochi appuntamenti che non aveva bisogno di giustificare — sfogliò distrattamente una rivista. Era il tipo di pubblicazione che non avrebbe mai comprato: carta patinata, fotografie di tramonti, frasi stampate in corsivo su sfondi color pastello. Stava per rimetterla a posto quando una riga lo fermò: «Se oggi fosse l'ultimo giorno della tua vita, saresti contento di quanto hai fatto ieri?»",
   "In un altro momento della sua vita l'avrebbe liquidata come retorica da calendario. Invece quelle parole lo raggiunsero sul serio.",
-  "Si accorse di aver buttato via un'intera vita. Non aveva sprecato il tempo, come aveva sempre temuto, ma la possibilità di vivere davvero. I fili invisibili che aveva tessuto con le sue stesse mani lo avevano intrappolato così bene che non c'era più nemmeno il rimpianto — solo la routine, che continuava, indifferente, a scandire giorni tutti uguali verso una fine che non aveva mai imparato a guardare in faccia.",
+  "Si accorse di aver buttato via un'intera vita. Non aveva sprecato il tempo, come aveva sempre temuto, ma la possibilità di vivere davvero. I fili invisibili che aveva tessuto con le sue stesse mani lo avevano intrappolato così bene che non c'era più nemmeno il rimpianto, solo la routine, che continuava, indifferente, a scandire giorni tutti uguali verso una fine che non aveva mai imparato a guardare in faccia.",
 ];
 
 const LaRoutine = () => (
