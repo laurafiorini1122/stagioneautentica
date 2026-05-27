@@ -20,7 +20,7 @@ const paragrafi = [
   "Tornò nello studio. Se le etichette ufficiali avevano fallito, ne avrebbe create di proprie. Iniziò a scrivere parole su piccoli pezzi di carta e a incollarli sulla pelle, sui polsi, sulle gambe. «Lettore assiduo», «Appassionato di giardinaggio», «Viaggiatore solitario». Nessuna aderiva. Ogni definizione scivolava via e lui restava lì, con le parole appiccicate alla pelle come etichette su un oggetto che nessuno voleva comprare. Maschere trasparenti, che il mondo non riconosceva e che lui stesso non riusciva a indossare.",
   "Era mezzogiorno. Fuori, il mondo correva verso la pausa pranzo. Lui fissava il foglio bianco. Continuò a scrivere. Le ore passavano. La ricerca si fece spasmodica, i tratti della penna sempre più frenetici e illeggibili. Riempiva i margini, scriveva sopra le parole già scritte, sovrapponendo significati che si annullavano a vicenda.",
   "Non c'era più l'uomo. C'era solo un corpo chino su un foglio, intrappolato nel tentativo di nominare il proprio niente. La casa restava muta, le pareti si stringevano, e lui continuava a scrivere, cercando in un vocabolario ormai morto la parola capace di riportarlo in vita.",
-  "Ma la pagina restava bianca sotto l'inchiostro nero. Solo il rumore della penna sul foglio — un battito meccanico in una stanza senza uscita.",
+  "Ma la pagina restava bianca sotto l'inchiostro nero. Solo il rumore della penna sul foglio, un battito meccanico in una stanza senza uscita.",
 ];
 
 const Letichetta = () => {
