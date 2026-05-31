@@ -4,8 +4,9 @@ import img from "@/assets/il-codice-sorgente-donna.jpg";
 import ProponiFinale from "@/components/ProponiFinale";
 
 const paragrafi = [
-  "Per una donna, la pensione non fu un traguardo, ma un cambio di gestione. Smessa di amministrare i beni dell'azienda, si nominò curatrice fallimentare della propria memoria. Il passato non era più un insieme di ricordi, ma un enorme database non indicizzato che esigeva un ordine definitivo.",
-  "Trascorreva dodici ore al giorno davanti allo schermo. Non scriveva memorie; redigeva un'autobiografia tecnica, un registro analitico in cui ogni evento era scomposto in data, ora, luogo e causale. Scansionava vecchie ricevute fiscali, allegava grafici sull'andamento del suo peso corporeo negli anni Ottanta, trascriveva verbali di assemblee condominiali di trent'anni prima.",
+  "Per quella donna, la pensione non fu un traguardo ma un cambio di gestione. Smesso di coordinare i reparti dell'azienda, si nominò curatrice fallimentare della propria memoria. Il passato non era più un insieme di ricordi: era un enorme database non indicizzato che esigeva un ordine definitivo.",
+  "Trascorreva dodici ore al giorno davanti allo schermo. Scansionava vecchie buste paga, allegava grafici sull'andamento del suo peso corporeo negli anni Ottanta, trascriveva i verbali delle riunioni di condominio di trent'anni prima — quelle in cui aveva parlato lei, per prima e più a lungo. Ogni evento aveva data, ora, luogo, causale.",
+  "L'implementazione finale fu il progetto della lapide. Sulla sua tomba non ci sarebbe stato un volto, ma un QR code inciso nel marmo, un portale che avrebbe rimandato l'utente al server contenente l'intera, monumentale biografia. «Sarò l'unica persona a restare accessibile», pensava.",
 ];
 
 const IlCodiceSorgenteDonna = () => (
