@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 import img from "@/assets/il-codice-sorgente.jpg";
 
 const paragrafi = [
-  "Per un uomo, la pensione non fu un traguardo, ma un cambio di gestione. Smesso di amministrare i beni dell'azienda, si nominò curatore fallimentare della propria memoria. Il passato non era più un insieme di ricordi, ma un enorme database non indicizzato che esigeva un ordine definitivo.",
-  "Trascorreva dodici ore al giorno davanti allo schermo. Non scriveva memorie; redigeva un'autobiografia tecnica, un registro analitico in cui ogni evento era scomposto in data, ora, luogo e causale. Scansionava vecchie ricevute fiscali, allegava grafici sull'andamento del suo peso corporeo negli anni Ottanta, trascriveva verbali di assemblee condominiali di trent'anni prima.",
-  "L'innovazione finale fu il progetto della lapide. Decise che sulla sua tomba non ci sarebbe stato un volto, ma un QR code inciso nel marmo. Un portale digitale che avrebbe rimandato l'utente al server contenente l'intera, monumentale biografia. «Sarò l'unico uomo a restare accessibile», pensava con orgoglio burocratico.",
+  "Per quell'uomo, la pensione non fu un traguardo ma un cambio di gestione. Smesso di amministrare i beni dell'azienda, si nominò curatore fallimentare della propria memoria. Il passato non era più un insieme di ricordi: era un enorme database non indicizzato che esigeva un ordine definitivo.",
+  "Trascorreva dodici ore al giorno davanti allo schermo. Scansionava vecchie ricevute fiscali, allegava grafici sull'andamento del suo peso corporeo negli anni Ottanta, trascriveva verbali di assemblee condominiali di trent'anni prima che lo avevano visto presidente. Ogni evento aveva data, ora, luogo, causale.",
+  "L'implementazione finale fu il progetto della lapide. Sulla sua tomba non ci sarebbe stato un volto, ma un QR code inciso nel marmo, un portale che avrebbe rimandato l'utente al server contenente l'intera, monumentale biografia. «Sarò l'unico uomo a restare accessibile», pensava.",
   "Morì con la mano sul mouse, intento ad aggiungere un'ultima appendice sulla qualità del servizio telefonico ricevuto nel 1994.",
-  "Il QR code fu inciso con precisione millimetrica sulla pietra grigia. Per qualche tempo, la novità attirò la curiosità di qualche passante. Ma la connessione nel cimitero era debole e i faldoni digitali erano troppo densi per essere letti in piedi tra i loculi.",
-  "Dopo un anno, la società di hosting fallì. Il link divenne un «Error 404 — Page Not Found». L'uomo aveva rinunciato a vivere per perfezionare il proprio archivio, ma l'ultima riga del suo codice sorgente era stata scritta da una macchina indifferente: il segnale era interrotto, la pagina era vuota.",
+  "Il QR code fu inciso con precisione millimetrica sulla pietra grigia. Per qualche mese attirò curiosi. Ma la connessione nel cimitero era debole, e i faldoni digitali erano troppo densi per essere letti in piedi tra i loculi.",
+  "Dopo un anno, la società di hosting fallì. Il link restituì un «Error 404 — Page Not Found». La pagina era vuota, il segnale era interrotto.",
 ];
 
 const IlCodiceSorgente = () => (
