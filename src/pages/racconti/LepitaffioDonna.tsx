@@ -4,9 +4,9 @@ import img from "@/assets/lepitaffio-donna.jpg";
 import ProponiFinale from "@/components/ProponiFinale";
 
 const paragrafi = [
-  "Per decenni, una donna aveva lavorato sulla sintesi. Il suo compito era distillare centinaia di pagine di dati in poche righe di Executive Summary. Una volta in pensione, applicò lo stesso rigore alla propria vita. Cercava la formula ultima, la riga di codice definitiva: l'epitaffio perfetto.",
-  "Iniziò a frequentare il cimitero monumentale come se fosse una fiera di settore. Analizzava le lapidi con occhio critico. «Madre esemplare», «Onesta lavoratrice», «Sempre nel cuore dei suoi cari». Per lei, quelle erano etichette difettose, prive di precisione tecnica. Erano slogan scaduti, buoni per chiunque e quindi per nessuno.",
-  "Tornata alla scrivania, iniziò la stesura. Il primo bozzetto fu professionale. Lo stracciò: troppo legato a una funzione cessata. Provò la versione filosofica: «Cercò l'ordine nel caos». Troppo astratta. Quella quantitativa: «Ha vissuto 27.375 giorni, producendo valore e rispettando le norme». Troppo fredda, persino per lei.",
+  "Per decenni, una donna aveva lavorato sulla sintesi. Il suo compito era distillare centinaia di pagine di dati in poche righe di nota di sintesi. Una volta in pensione, applicò lo stesso rigore alla propria vita. Cercava la formula ultima: l'epitaffio perfetto.",
+  "Iniziò a frequentare il cimitero monumentale come se fosse una fiera di settore. Analizzava le lapidi con occhio critico. «Madre amorevole», «Moglie devota», «Sempre per la sua famiglia». Slogan buoni per chiunque, e quindi per nessuno.",
+  "Tornata alla scrivania, iniziò la stesura. Il primo bozzetto fu professionale. Lo stracciò: troppo legata a una funzione cessata. Provò la versione filosofica: «Cercò l'ordine nel caos». Troppo astratta. Quella quantitativa: «Ha vissuto 27.375 giorni, producendo valore e rispettando le norme». Troppo fredda, persino per lei.",
 ];
 
 const LepitaffioDonna = () => (
