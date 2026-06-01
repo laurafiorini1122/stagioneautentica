@@ -24,18 +24,18 @@ const GlossarioFineRapporto = () => (
       <img src={img} alt="Uomo anziano riverso sulla scrivania con calamaio rovesciato" width={1600} height={896} loading="lazy" className="w-full h-auto object-cover" />
     </div>
     <article className="space-y-6">
-      <p className="font-serif text-lg leading-[1.8] text-foreground/85 italic">Per anni, un uomo aveva redatto verbali e circolari, pesando ogni termine per evitare contenziosi. In pensione, rivolse la sua perizia linguistica all'unico evento che non ammetteva repliche. Iniziò a compilare un glossario critico delle definizioni riservate a chi smette di respirare, annotandole su un registro a righe con un sarcasmo che era la sua ultima linea di difesa.</p>
+      <p className="font-serif text-lg leading-[1.8] text-foreground/85">Per anni, un uomo aveva redatto verbali e circolari, pesando ogni termine per evitare contenziosi. In pensione, rivolse la sua perizia linguistica all'unico evento che non ammetteva repliche. Iniziò a compilare un glossario critico delle definizioni riservate a chi smette di respirare, annotandole su un registro a righe con un sarcasmo che era la sua ultima linea di difesa.</p>
       <dl className="space-y-5 pt-4">
         {definizioni.map(([term, def]) => (
           <div key={term}>
-            <dt className="font-serif text-lg italic font-bold text-foreground">{term}:</dt>
-            <dd className="font-serif text-lg leading-[1.8] text-foreground/85 italic pl-4">«{def}»</dd>
+            <dt className="font-serif text-lg font-bold text-foreground">{term}:</dt>
+            <dd className="font-serif text-lg leading-[1.8] text-foreground/85 pl-4">«{def}»</dd>
           </div>
         ))}
       </dl>
-      <p className="font-serif text-lg leading-[1.8] text-foreground/85 italic pt-4">Un pomeriggio, mentre cercava un commento adeguato per <em>Anima eletta</em> — «Un'auto-promozione postuma non verificata dagli uffici competenti» — sentì un dolore al braccio sinistro.</p>
-      <p className="font-serif text-lg leading-[1.8] text-foreground/85 italic">Crollò sulla scrivania. Il calamaio si rovesciò sul registro. Lo trovarono il mattino dopo.</p>
-      <p className="font-serif text-lg leading-[1.8] text-foreground/85 italic">Il medico legale compilò il certificato senza consultare il glossario sul tavolo. Scrisse: «Decesso accertato».</p>
+      <p className="font-serif text-lg leading-[1.8] text-foreground/85 pt-4">Un pomeriggio, mentre cercava un commento adeguato per Anima eletta — «Un'auto-promozione postuma non verificata dagli uffici competenti» — sentì un dolore al braccio sinistro.</p>
+      <p className="font-serif text-lg leading-[1.8] text-foreground/85">Crollò sulla scrivania. Il calamaio si rovesciò sul registro. Lo trovarono il mattino dopo.</p>
+      <p className="font-serif text-lg leading-[1.8] text-foreground/85">Il medico legale compilò il certificato senza consultare il glossario sul tavolo. Scrisse: «Decesso accertato».</p>
     </article>
     <div className="mt-16 mb-8">
       <Link to="/un-uomo" className="font-sans text-sm uppercase tracking-[0.25em] text-muted-foreground hover:text-foreground transition-colors">← Torna a Un uomo</Link>
