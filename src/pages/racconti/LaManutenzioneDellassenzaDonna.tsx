@@ -4,11 +4,11 @@ import img from "@/assets/la-manutenzione-dellassenza-donna.jpg";
 import ProponiFinale from "@/components/ProponiFinale";
 
 const paragrafi = [
-  "Per quarant'anni, una donna era stata una parte di un tutto. La pensione aveva rimosso il primo strato, ma era stata la morte a smantellare l'impalcatura. Prima il marito, poi la sorella, infine le poche amiche storiche, portate via da una sequenza di patologie statisticamente prevedibili.",
-  "Rimasta sola, la donna scoprì di non possedere un'identità autonoma. Era un ufficio vuoto dopo un trasloco: restavano i segni dei mobili sul pavimento, ma i mobili non c'erano più. Scelse di diventare la custode a tempo pieno del proprio dolore.",
-  "Trasformò la casa in un sacrario della gestione. La sua non era una disperazione scomposta, ma una liturgia metodica. Ogni mattina, alle 7:00, celebrava l'assenza. Preparava il caffè per due, posando la tazza del marito sul tavolo di marmo, esattamente dove la porcellana aveva lasciato un alone invisibile in trent'anni di colazioni.",
-  "Trascorreva le ore centrali a manutenere i ricordi degli altri. Rileggeva le vecchie lettere della sorella, catalogandole per data e rilevanza tematica. Chiamava i numeri di telefono delle amiche scomparse solo per ascoltare il silenzio o il messaggio metallico di un'utenza cessata.",
-  "Vedeva altre donne tentare di ricostruirsi, di imparare nuovi giochi, di stringere alleanze di circostanza. Le guardava con un misto di superiorità e ribrezzo. Per lei, «rifarsi una vita» era un tradimento della logica. Come poteva un allegato continuare a esistere se il documento principale era stato distrutto?",
+  "Per quarant'anni era stata moglie, sorella, collega, amica. La pensione aveva tolto il primo strato. La morte aveva fatto il resto: prima il marito, poi la sorella, poi quasi tutte le amiche, portate via da malattie che a una certa età non sorprendono più nessuno, anche se ogni volta ci si aspettava di essere sorprese.",
+  "Sola, si accorse che non sapeva come essere soltanto sé stessa. Era un ufficio dopo un trasloco: i segni dei mobili sul pavimento, ma i mobili non c'erano più.",
+  "Scelse di fare del proprio dolore un lavoro a tempo pieno.",
+  "Non era disperazione. Era metodo. Ogni mattina, alle 7:00, preparava il caffè per due. Posava la tazza del marito sul tavolo di marmo, sull'alone che trent'anni di porcellana avevano lasciato senza che nessuno se ne accorgesse. La tazza era ancora lì. Era sempre stata lì.",
+  "Nelle ore centrali rileggeva le lettere della sorella, catalogandole per data. Chiamava i numeri delle amiche morte per ascoltare il silenzio, o la voce metallica di un'utenza cessata. Non cercava niente. Confermava.",
 ];
 
 const LaManutenzioneDellassenzaDonna = () => (
