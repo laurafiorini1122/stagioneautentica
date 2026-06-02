@@ -4,21 +4,20 @@ import img from "@/assets/il-risparmio-donna.jpg";
 import ProponiFinale from "@/components/ProponiFinale";
 
 const paragrafi = [
-  "Una donna aveva un'app. Non un quaderno, non un foglio di calcolo cartaceo — un'applicazione sul telefono, aggiornata ogni sera con la precisione di chi tiene un diario segreto. Ogni uscita registrata per categoria, ogni saldo mensile confrontato con il precedente, ogni piccola anomalia segnalata da una notifica arancione che lei aveva imparato a temere come un rimprovero.",
-  "Caffè al bar: 1,20. Farmacia: 4,30. Verdura al mercato: 7,80. Poi sommava. Poi confrontava. Poi rifletteva.",
-  "Aveva lavorato quarant'anni. Aveva ricoperto posizioni che le avevano permesso di vivere con quella dignità solida di chi non guarda il prezzo al ristorante ma non ordina mai il vino della carta. Aveva messo da parte. Aveva investito con prudenza, si era fatta aiutare da un consulente serio, aveva preso decisioni ponderate. Aveva un patrimonio sufficiente — più che sufficiente — per vivere senza preoccupazioni fino alla fine dei suoi giorni, qualunque giorno fosse.",
-  "Non aveva figli. Non aveva nipoti. Non aveva cause in cui credere abbastanza da intestare loro qualcosa. Le onlus le sembravano macchine burocratiche che consumavano il 40% delle donazioni in gestione; la politica era fuori discussione da anni; la chiesa era rimasta, per lei, solo architettura. Il denaro aveva lavorato una vita per lei. Non aveva intenzione di lasciarlo lavorare per qualcun altro.",
+  "Una donna aveva un quaderno. Non un'applicazione, non un foglio di calcolo, non un conto online con grafici a torta e proiezioni automatiche: un quaderno a righe, copertina nera, con le pagine numerate a mano. Su quel quaderno, ogni sera, annotava le uscite del giorno con una grafia precisa, quasi tipografica.",
+  "Caffè al bar: 1,20. Giornale: 1,30. Autobus: 1,50.",
+  "Poi sommava, confrontava con il giorno precedente, con la settimana precedente, con lo stesso periodo dell'anno scorso.",
+  "Aveva lavorato quarant'anni. Aveva ricoperto posizioni che le avevano permesso di vivere bene, non lussuosamente, ma con quella dignità solida di chi non guarda il prezzo al ristorante ma non ordina mai due antipasti. Aveva messo da parte. Aveva investito con prudenza. Aveva un patrimonio sufficiente, più che sufficiente, per vivere senza preoccupazioni fino alla fine dei suoi giorni, qualunque giorno fosse.",
+  "Non aveva figli, non aveva nipoti, non aveva nessuno a cui lasciare qualcosa e niente in cui credere abbastanza. Il denaro aveva lavorato una vita per lei e non aveva intenzione di lasciarlo lavorare per qualcun altro.",
   "E quindi risparmiava.",
-  "Risparmiava sul riscaldamento, con una logica che chiamava «efficienza energetica» e che suo fratello chiamava, sottovoce, «quella storia dei diciotto gradi». Risparmiava sulla spesa, organizzando le settimane intorno alle offerte del giovedì con la concentrazione di un progetto professionale. Risparmiava sulle uscite, valutando ogni spesa voluttuaria con la serietà con cui un tempo valutava i preventivi dei fornitori.",
-  "Non era avarizia, si diceva. Era rispetto per il lavoro che aveva generato quei soldi.",
-  "Ma c'era un'altra spiegazione, più vicina alla superficie, che la donna evitava di guardare direttamente: spendere significava usare. Usare significava consumare. Consumare significava avvicinarsi a quel punto in cui non ci sarebbe stato più niente da consumare. Il risparmio non era solo rigore — era una forma di controllo sul tempo. Finché i soldi c'erano e crescevano, il tempo aveva ancora una direzione.",
-  "Un'estate, una vecchia amica la invitò a un viaggio in Portogallo. Dieci giorni, un appartamento condiviso con altre due, una cifra ragionevole. La donna aprì l'app, fece i calcoli, trovò tre buone ragioni per rimandare.",
-  "«Non è il momento giusto», disse all'amica.",
-  "L'amica non chiese quale momento sarebbe stato quello giusto. Forse lo sapeva già.",
-  "Quell'autunno si ruppe la lavatrice. La donna confrontò sette modelli, lesse quarantadue recensioni, aspettò una promozione che arrivò sei settimane dopo. Nel frattempo andò a lavare i panni dalla sorella, due volte a settimana, con una puntualità che cominciò a sembrare, anche a lei, leggermente sproporzionata rispetto all'entità del problema.",
-  "Una domenica mattina aprì l'app e guardò il saldo. Era cresciuto, come ogni mese. La notifica era verde, non arancione.",
-  "Si accorse di stare sorridendo.",
-  "Non perché fosse felice. Ma perché il saldo cresceva, e il saldo che cresceva era l'unica cosa che continuasse a darle la sensazione di andare nella direzione giusta. Anche se non aveva più deciso dove fosse, quella direzione.",
+  "Risparmiava sul riscaldamento, tenendo il termostato a diciotto gradi e indossando il maglione che aveva comprato nel 2011 e che ancora teneva benissimo. Risparmiava sulla spesa, comprando quasi esclusivamente in offerta e pianificando i pasti intorno ai volantini del giovedì. Valutava ogni spesa non necessaria con calma, come se ci fosse sempre tempo.",
+  "Non era avarizia, si diceva: era rigore. Era il rispetto per il lavoro che aveva fatto quei soldi.",
+  "Un'estate, sua sorella la invitò in Sardegna. C'era una casa in affitto, tre famiglie, diciassette giorni. Calcolò: il volo, la quota dell'affitto, il cibo, qualche uscita. Una cifra non enorme, ma non trascurabile. Ringraziò e declinò.",
+  "«Non te lo puoi permettere?» chiese la sorella, con una faccia che non era una domanda.",
+  "«Non è questo», disse.",
+  "Ma non aggiunse altro, perché non riuscì a trovare una spiegazione che suonasse ragionevole ad alta voce.",
+  "Quell'inverno si ruppe la caldaia. Chiamò tre idraulici, confrontò i preventivi, scelse il più economico, poi aspettò quattro giorni prima di farlo venire perché i giorni in mezzo al mese costavano di più di quelli a inizio mese. Quelle notti dormì con due piumini e un giubbotto.",
+  "Il mattino del quarto giorno, mentre aspettava l'idraulico, aprì il quaderno e guardò la colonna delle uscite. Era una settimana eccezionalmente contenuta. Quasi una settimana di vacanza, nei numeri.",
 ];
 
 const IlRisparmioDonna = () => (
