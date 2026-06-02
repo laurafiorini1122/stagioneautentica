@@ -5,12 +5,12 @@ import img from "@/assets/il-risparmio.jpg";
 const paragrafi = [
   "Un uomo aveva un quaderno. Non un'applicazione, non un foglio di calcolo, non un conto online con grafici a torta e proiezioni automatiche: un quaderno a righe, copertina nera, con le pagine numerate a mano. Su quel quaderno, ogni sera, annotava le uscite del giorno con una grafia precisa, quasi tipografica.",
   "Caffè al bar: 1,20. Giornale: 1,30. Autobus: 1,50.",
-  "Poi sommava. Poi confrontava con il giorno precedente. Poi con la settimana precedente. Poi con lo stesso periodo dell'anno scorso.",
-  "Aveva lavorato quarant'anni. Aveva ricoperto posizioni che gli avevano permesso di vivere bene — non lussuosamente, ma con quella dignità solida del professionista che non guarda il prezzo al ristorante ma non ordina mai due antipasti. Aveva messo da parte. Aveva investito con prudenza. Aveva un patrimonio sufficiente, più che sufficiente, per vivere senza preoccupazioni fino alla fine dei suoi giorni — qualunque giorno fosse.",
-  "Non aveva figli. Non aveva nipoti. Non aveva cause in cui credere abbastanza da intestare loro qualcosa. Le onlus gli sembravano macchine burocratiche che consumavano il 40% delle donazioni in gestione; i partiti erano fuori discussione; la chiesa era un'altra burocrazia con costumi più scenografici. Il denaro aveva lavorato una vita per lui. Non aveva intenzione di lasciarlo lavorare per qualcun altro.",
+  "Poi sommava, confrontava con il giorno precedente, con la settimana precedente, con lo stesso periodo dell'anno scorso.",
+  "Aveva lavorato quarant'anni. Aveva ricoperto posizioni che gli avevano permesso di vivere bene, non lussuosamente, ma con quella dignità solida del professionista che non guarda il prezzo al ristorante ma non ordina mai due antipasti. Aveva messo da parte. Aveva investito con prudenza. Aveva un patrimonio sufficiente, più che sufficiente, per vivere senza preoccupazioni fino alla fine dei suoi giorni, qualunque giorno fosse.",
+  "Non aveva figli, non aveva nipoti, non aveva nessuno a cui lasciare qualcosa e niente in cui credere abbastanza. Il denaro aveva lavorato una vita per lui e non aveva intenzione di lasciarlo lavorare per qualcun altro.",
   "E quindi risparmiava.",
-  "Risparmiava sul riscaldamento, tenendo il termostato a diciotto gradi e indossando il maglione che aveva comprato nel 2011 e che ancora teneva benissimo. Risparmiava sulla spesa, comprando quasi esclusivamente in offerta e pianificando i pasti intorno ai volantini del giovedì. Risparmiava sulle uscite, valutando ogni spesa non necessaria con la serietà di un consiglio di amministrazione.",
-  "Non era avarizia, si diceva. Era rigore. Era il rispetto per il lavoro che aveva fatto quei soldi.",
+  "Risparmiava sul riscaldamento, tenendo il termostato a diciotto gradi e indossando il maglione che aveva comprato nel 2011 e che ancora teneva benissimo. Risparmiava sulla spesa, comprando quasi esclusivamente in offerta e pianificando i pasti intorno ai volantini del giovedì. Valutava ogni spesa non necessaria con calma, come se ci fosse sempre tempo.",
+  "Non era avarizia, si diceva: era rigore. Era il rispetto per il lavoro che aveva fatto quei soldi.",
   "Un'estate, sua sorella lo invitò in Sardegna. C'era una casa in affitto, tre famiglie, diciassette giorni. L'uomo calcolò: il volo, la quota dell'affitto, il cibo, qualche uscita. Una cifra non enorme, ma non trascurabile. Ringraziò e declinò.",
   "«Non te lo puoi permettere?» chiese la sorella, con una faccia che non era una domanda.",
   "«Non è questo», disse l'uomo.",
@@ -19,12 +19,11 @@ const paragrafi = [
   "Il mattino del quarto giorno, mentre aspettava l'idraulico, aprì il quaderno e guardò la colonna delle uscite. Era una settimana eccezionalmente contenuta. Quasi una settimana di vacanza, nei numeri.",
   "Si accorse, in quel momento, di stare sorridendo.",
   "Non perché fosse felice. Ma perché il quaderno quadrava, e il quaderno che quadrava era l'unica forma di soddisfazione che riuscisse ancora a riconoscere con certezza.",
-  "Il patrimonio continuò a crescere. Lentamente, regolarmente, come una pianta che nessuno annaffia ma che sopravvive all'umidità dell'aria. L'uomo continuò a registrare, a sommare, a confrontare. Le pagine del quaderno si riempirono. Ne comprò un altro, uguale — stessa copertina nera, stesse righe, stesso formato.",
-  "Costavano 3,50 l'uno. Li comprò in offerta: tre per sette euro.",
+  "Il patrimonio continuò a crescere. L'uomo continuò a registrare, a sommare, a confrontare. Le pagine del quaderno si riempirono. Ne comprò un altro, uguale — stessa copertina nera, stesse righe, stesso formato.",
+  "Costava 3,50 ma lo comprò in offerta: tre per sette euro.",
   "Mise i due di scorta nel cassetto, sopra il quaderno precedente, che aveva conservato.",
-  "Erano documenti. Erano la prova di qualcosa. Non sapeva esattamente di cosa — ma era importante che esistessero, che qualcuno li trovasse, che qualcuno capisse quanto lavoro c'era voluto.",
+  "Erano documenti. Erano la prova di qualcosa. Non sapeva esattamente di cosa, ma era importante che esistessero, che qualcuno li trovasse, che qualcuno capisse quanto lavoro c'era voluto.",
   "Qualcuno. Chiunque.",
-  "Anche se non c'era nessuno.",
 ];
 
 const IlRisparmio = () => (
