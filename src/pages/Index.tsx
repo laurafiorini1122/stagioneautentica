@@ -2,6 +2,7 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import SeasonCard from "@/components/SeasonCard";
 import homeHero from "@/assets/home-hero.jpg";
+import cardUomo from "@/assets/un-uomo.png";
 import cardDonna from "@/assets/una-donna.jpg";
 import cardPercorso from "@/assets/il-percorso.jpg";
 import { Link } from "react-router-dom";
@@ -54,7 +55,7 @@ const Index = () => {
             title="Un Uomo"
             subtitle="L'abisso raccontato con ironia"
             to="/un-uomo"
-            image={cardDonna}
+            image={cardUomo}
           />
           <SeasonCard
             title="Una Donna"
