@@ -1,140 +1,152 @@
 import PageShell from "@/components/PageShell";
 import { Link } from "react-router-dom";
-import unUomoImg from "@/assets/un-uomo.jpg";
+import letichettaImg from "@/assets/letichetta.jpg";
+import lattesaImg from "@/assets/lattesa.jpg";
+import ilVoyeurImg from "@/assets/il-voyeur.jpg";
+import laRoutineImg from "@/assets/la-routine.jpg";
+import lecoDelCapoImg from "@/assets/leco-del-capo.jpg";
+import labirintoBurocraticoImg from "@/assets/labirinto-burocratico.jpg";
+import ilConsiglioImg from "@/assets/il-consiglio.jpg";
+import ilLinguaggioImg from "@/assets/il-linguaggio.jpg";
+import linvasioneImg from "@/assets/linvasione.jpg";
+import ilCorpoEstraneoImg from "@/assets/il-corpo-estraneo.jpg";
+import leLettereImg from "@/assets/le-lettere.jpg";
+import laFormulaMatematicaImg from "@/assets/la-formula-matematica.jpg";
+import linventarioImg from "@/assets/linventario.jpg";
+import leUltimeDisposizioniImg from "@/assets/le-ultime-disposizioni.jpg";
+import laNotaAPiediPaginaImg from "@/assets/la-nota-a-piedi-pagina.jpg";
+import ilCodiceSorgenteImg from "@/assets/il-codice-sorgente.jpg";
+import lepitaffioImg from "@/assets/lepitaffio.jpg";
+import laManutenzioneDellassenzaImg from "@/assets/la-manutenzione-dellassenza.jpg";
+import glossarioFineRapportoImg from "@/assets/glossario-fine-rapporto.jpg";
+import alloSpecchioImg from "@/assets/allo-specchio.jpg";
+import ilRisparmioImg from "@/assets/il-risparmio.jpg";
+import laCondivisioneImg from "@/assets/la-condivisione.jpg";
+import ruoliInvertitiImg from "@/assets/ruoli-invertiti.jpg";
 
 const racconti = [
   {
     titolo: "L'etichetta",
-    estratto: "Quando smettere di fare significa smettere di essere.",
     href: "/un-uomo/letichetta",
+    img: letichettaImg,
   },
   {
     titolo: "L'attesa",
-    estratto: "Quando il tempo libero diventa la prigione più silenziosa.",
     href: "/un-uomo/lattesa",
+    img: lattesaImg,
   },
   {
     titolo: "Il voyeur",
-    estratto: "Guardare dall'esterno il mondo a cui non si appartiene più.",
     href: "/un-uomo/il-voyeur",
+    img: ilVoyeurImg,
   },
   {
     titolo: "La routine",
-    estratto: "Quando la libertà viene riempita con nuove catene invisibili.",
     href: "/un-uomo/la-routine",
+    img: laRoutineImg,
   },
   {
     titolo: "L'eco del capo",
-    estratto: "Quando il potere evapora con il badge e le promesse rimangono parole.",
     href: "/un-uomo/leco-del-capo",
+    img: lecoDelCapoImg,
   },
   {
     titolo: "Il labirinto burocratico",
-    estratto: "Quando la fedeltà al lavoro viene punita dal sistema che si è servito.",
     href: "/un-uomo/il-labirinto-burocratico",
+    img: labirintoBurocraticoImg,
   },
   {
     titolo: "Il consiglio",
-    estratto: "Quando l'approvazione degli altri diventa l'unico hobby davvero praticato.",
     href: "/un-uomo/il-consiglio",
+    img: ilConsiglioImg,
   },
   {
     titolo: "Il linguaggio",
-    estratto: "Quando le parole del potere perdono senso fuori dal loro contesto.",
     href: "/un-uomo/il-linguaggio",
+    img: ilLinguaggioImg,
   },
   {
     titolo: "L'invasione",
-    estratto: "Quando la casa diventa un territorio ostile abitato da un estraneo.",
     href: "/un-uomo/linvasione",
+    img: linvasioneImg,
   },
   {
     titolo: "Il corpo estraneo",
-    estratto: "Quando il silenzio amplifica ogni segnale di decadimento.",
     href: "/un-uomo/il-corpo-estraneo",
+    img: ilCorpoEstraneoImg,
   },
   {
     titolo: "Le lettere",
-    estratto: "Quando l'ultima parola viene affidata a un notaio e alla morte.",
     href: "/un-uomo/le-lettere",
+    img: leLettereImg,
   },
   {
     titolo: "La formula matematica",
-    estratto: "Quando si tenta di calcolare l'incalcolabile per non subirlo.",
     href: "/un-uomo/la-formula-matematica",
+    img: laFormulaMatematicaImg,
   },
   {
     titolo: "L'inventario",
-    estratto: "Quando si cataloga la vita sperando che la carta la trattenga.",
     href: "/un-uomo/linventario",
+    img: linventarioImg,
   },
   {
     titolo: "Le ultime disposizioni",
-    estratto: "Quando si tenta di amministrare l'incontrollabile fino all'ultimo foglio.",
     href: "/un-uomo/le-ultime-disposizioni",
+    img: leUltimeDisposizioniImg,
   },
   {
     titolo: "La nota a piè di pagina",
-    estratto: "Quando l'irrilevanza storica diventa più terrificante della morte.",
     href: "/un-uomo/la-nota-a-piedi-pagina",
+    img: laNotaAPiediPaginaImg,
   },
   {
     titolo: "Il codice sorgente",
-    estratto: "Quando si sacrifica il presente per archiviare un passato che nessuno leggerà.",
     href: "/un-uomo/il-codice-sorgente",
+    img: ilCodiceSorgenteImg,
   },
   {
     titolo: "L'epitaffio",
-    estratto: "Quando la ricerca della parola perfetta si conclude con quella di tutti.",
     href: "/un-uomo/lepitaffio",
+    img: lepitaffioImg,
   },
   {
     titolo: "La manutenzione dell'assenza",
-    estratto: "Quando il dolore diventa l'unica prova di esistere ancora.",
     href: "/un-uomo/la-manutenzione-dellassenza",
+    img: laManutenzioneDellassenzaImg,
   },
   {
     titolo: "Glossario del fine rapporto",
-    estratto: "Quando il sarcasmo diventa l'ultima difesa contro l'inevitabile.",
     href: "/un-uomo/glossario-del-fine-rapporto",
+    img: glossarioFineRapportoImg,
   },
   {
     titolo: "Allo specchio",
-    estratto: "Quando il volto diventa un curriculum da aggiornare.",
     href: "/un-uomo/allo-specchio",
+    img: alloSpecchioImg,
   },
   {
     titolo: "Il risparmio",
-    estratto: "Quando la frugalità diventa la prigione più cara di tutte.",
     href: "/un-uomo/il-risparmio",
+    img: ilRisparmioImg,
   },
   {
     titolo: "La condivisione",
-    estratto: "Quando quarant'anni di competenza valgono meno di trent'anni di attesa.",
     href: "/un-uomo/la-condivisione",
+    img: laCondivisioneImg,
   },
   {
     titolo: "Ruoli invertiti",
-    estratto: "Quando non voler essere un peso significa diventare invisibile.",
     href: "/un-uomo/ruoli-invertiti",
+    img: ruoliInvertitiImg,
   },
 ];
 
 const UnUomo = () => {
   return (
-    <PageShell title="Un uomo" subtitle="L'abisso raccontato con ironia" bgClassName="bg-page-uomo">
+    <PageShell title="Un uomo" bgClassName="bg-page-uomo" wide>
       {/* 1. Introduzione + epigrafe */}
       <section>
-        <div className="mb-12 overflow-hidden rounded-sm">
-          <img
-            src={unUomoImg}
-            alt="Mani d'uomo con un libro aperto e una tazza di caffè"
-            width={1600}
-            height={900}
-            loading="lazy"
-            className="w-full h-auto object-cover"
-          />
-        </div>
         <p className="text-center">
           <Link
             to="/un-uomo/introduzione"
@@ -145,32 +157,27 @@ const UnUomo = () => {
         </p>
       </section>
 
-      {/* 2. 14 racconti */}
+      {/* 2. Griglia racconti */}
       <section className="mt-24">
-        <h2 className="font-serif text-2xl md:text-3xl text-foreground/70 tracking-tight mb-6">
+        <h2 className="font-serif text-2xl md:text-3xl text-foreground/70 tracking-tight mb-8">
           Racconti
         </h2>
-        <div>
-          {racconti.map((r, idx) => (
-            <article
-              key={r.titolo}
-              className={`py-8 ${idx !== 0 ? "border-t border-foreground/15" : ""}`}
-            >
-              <h3 className="font-serif text-2xl text-foreground tracking-tight mb-3">
-                {r.href ? (
-                  <Link
-                    to={r.href}
-                    className="hover:text-foreground/60 transition-colors underline-offset-4 hover:underline"
-                  >
-                    {r.titolo}
-                  </Link>
-                ) : (
-                  r.titolo
-                )}
-              </h3>
-              <p className="font-serif text-base leading-[1.8] text-foreground/75">
-                {r.estratto}
-              </p>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          {racconti.map((r) => (
+            <article key={r.titolo} className="group">
+              <Link to={r.href} className="block">
+                <div className="overflow-hidden rounded-sm bg-card-uomo">
+                  <img
+                    src={r.img}
+                    alt={r.titolo}
+                    loading="lazy"
+                    className="w-full aspect-[4/3] object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                  />
+                </div>
+                <h3 className="mt-3 font-serif text-lg md:text-xl text-foreground tracking-tight underline-offset-4 group-hover:underline group-hover:text-foreground/70 transition-colors">
+                  {r.titolo}
+                </h3>
+              </Link>
             </article>
           ))}
         </div>
