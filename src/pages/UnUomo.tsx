@@ -23,6 +23,7 @@ import alloSpecchioImg from "@/assets/allo-specchio.jpg";
 import ilRisparmioImg from "@/assets/il-risparmio.jpg";
 import laCondivisioneImg from "@/assets/la-condivisione.jpg";
 import ruoliInvertitiImg from "@/assets/ruoli-invertiti.jpg";
+import introduzioneImg from "@/assets/introduzione.jpg";
 
 const racconti = [
   {
@@ -145,16 +146,25 @@ const racconti = [
 const UnUomo = () => {
   return (
     <PageShell title="Un uomo" bgClassName="bg-page-uomo" wide>
-      {/* 1. Introduzione + epigrafe */}
+      {/* 1. Introduzione */}
       <section>
-        <p className="text-center">
-          <Link
-            to="/un-uomo/introduzione"
-            className="font-serif text-2xl md:text-3xl font-bold text-foreground tracking-tight hover:text-foreground/60 transition-colors underline-offset-4 hover:underline"
-          >
-            Perché ho scritto questi racconti
-          </Link>
-        </p>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <article className="group">
+            <Link to="/un-uomo/introduzione" className="block">
+              <div className="overflow-hidden rounded-sm bg-card-uomo">
+                <img
+                  src={introduzioneImg}
+                  alt="Perché ho scritto questi racconti"
+                  loading="lazy"
+                  className="w-full aspect-[4/3] object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                />
+              </div>
+              <h3 className="mt-3 font-serif text-lg md:text-xl text-foreground tracking-tight underline-offset-4 group-hover:underline group-hover:text-foreground/70 transition-colors">
+                Perché ho scritto questi racconti
+              </h3>
+            </Link>
+          </article>
+        </div>
       </section>
 
       {/* 2. Griglia racconti */}
