@@ -146,12 +146,12 @@ const racconti = [
 const UnUomo = () => {
   return (
     <PageShell title="Un uomo" bgClassName="bg-page-uomo" wide>
-      {/* 1. Introduzione */}
+      {/* Griglia racconti */}
       <section>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <article className="group">
             <Link to="/un-uomo/introduzione" className="block">
-              <div className="overflow-hidden rounded-sm bg-card-uomo">
+              <div className="overflow-hidden rounded-sm bg-card-uomo ring-2 ring-foreground/60 ring-offset-4 ring-offset-page-uomo">
                 <img
                   src={introduzioneImg}
                   alt="Perché ho scritto questi racconti"
@@ -159,20 +159,11 @@ const UnUomo = () => {
                   className="w-full aspect-[4/3] object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                 />
               </div>
-              <h3 className="mt-3 font-serif text-lg md:text-xl text-foreground tracking-tight underline-offset-4 group-hover:underline group-hover:text-foreground/70 transition-colors">
+              <h3 className="mt-3 font-serif text-lg md:text-xl font-bold text-foreground tracking-tight underline-offset-4 group-hover:underline group-hover:text-foreground/70 transition-colors">
                 Perché ho scritto questi racconti
               </h3>
             </Link>
           </article>
-        </div>
-      </section>
-
-      {/* 2. Griglia racconti */}
-      <section className="mt-24">
-        <h2 className="font-serif text-2xl md:text-3xl text-foreground/70 tracking-tight mb-8">
-          Racconti
-        </h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {racconti.map((r) => (
             <article key={r.titolo} className="group">
               <Link to={r.href} className="block">
