@@ -4,28 +4,32 @@ interface SeasonCardProps {
   title: string;
   subtitle: string;
   to: string;
-  variant: "uomo" | "donna" | "percorso";
+  image: string;
 }
 
-const variantClasses: Record<SeasonCardProps["variant"], string> = {
-  uomo: "bg-card-uomo hover:bg-card-uomo-hover",
-  donna: "bg-card-donna hover:bg-card-donna-hover",
-  percorso: "bg-card-percorso hover:bg-card-percorso-hover",
-};
-
-const SeasonCard = ({ title, subtitle, to, variant }: SeasonCardProps) => {
+const SeasonCard = ({ title, subtitle, to, image }: SeasonCardProps) => {
   return (
     <Link
       to={to}
-      className={`group flex flex-col items-center justify-center text-center px-8 py-16 border border-border rounded-md transition-colors duration-500 ${variantClasses[variant]}`}
+      className="group flex flex-col overflow-hidden rounded-md border border-border bg-background transition-colors duration-500 hover:bg-foreground/[0.02]"
     >
-      <h2 className="font-serif text-3xl md:text-4xl text-foreground tracking-tight mb-4">
-        {title}
-      </h2>
-      <span className="block w-12 h-px bg-foreground/30 mb-4" />
-      <p className="font-serif italic text-base text-muted-foreground">
-        {subtitle}
-      </p>
+      <div className="overflow-hidden">
+        <img
+          src={image}
+          alt={title}
+          loading="lazy"
+          className="w-full aspect-[4/3] object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+        />
+      </div>
+      <div className="flex flex-col items-center text-center px-8 py-10">
+        <h2 className="font-serif text-3xl md:text-4xl text-foreground tracking-tight mb-4">
+          {title}
+        </h2>
+        <span className="block w-12 h-px bg-foreground/30 mb-4" />
+        <p className="font-serif italic text-base text-muted-foreground">
+          {subtitle}
+        </p>
+      </div>
     </Link>
   );
 };
