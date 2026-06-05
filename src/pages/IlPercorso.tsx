@@ -67,7 +67,7 @@ const tracce = [
 
 const IlPercorso = () => {
   return (
-    <PageShell title="Un percorso" subtitle="Gli strumenti per guardarsi dentro" wide>
+    <PageShell title="Un percorso" wide>
       {/* Griglia tracce */}
       <section>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
