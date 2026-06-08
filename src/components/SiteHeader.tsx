@@ -11,7 +11,7 @@ const SiteHeader = ({ minimal = false }: { minimal?: boolean }) => {
           <nav className="hidden md:flex gap-8 font-sans text-xs uppercase tracking-[0.2em] text-muted-foreground">
             <Link to="/un-uomo" className="hover:text-foreground transition-colors">Un uomo</Link>
             <Link to="/una-donna" className="hover:text-foreground transition-colors">Una donna</Link>
-            <Link to="/il-percorso" className="hover:text-foreground transition-colors">Il percorso</Link>
+            <Link to="/tracce" className="hover:text-foreground transition-colors">Tracce</Link>
           </nav>
         </div>
       </header>

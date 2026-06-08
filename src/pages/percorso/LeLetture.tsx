@@ -10,8 +10,8 @@ const LeLetture = () => {
       </article>
 
       <div className="mt-16 mb-8">
-        <Link to="/il-percorso" className="font-sans text-sm uppercase tracking-[0.25em] text-muted-foreground hover:text-foreground transition-colors">
-          ← Torna a Un percorso
+        <Link to="/tracce" className="font-sans text-sm uppercase tracking-[0.25em] text-muted-foreground hover:text-foreground transition-colors">
+          ← Torna a Tracce
         </Link>
       </div>
     </PageShell>

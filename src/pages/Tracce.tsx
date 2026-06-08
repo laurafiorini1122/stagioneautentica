@@ -15,64 +15,64 @@ import lettureImg from "@/assets/percorso/letture.jpg";
 const tracce = [
   {
     titolo: "Il curriculum vitae",
-    href: "/il-percorso/il-curriculum-vitae",
+    href: "/tracce/il-curriculum-vitae",
     img: cvImg,
   },
   {
     titolo: "La linea del tempo",
-    href: "/il-percorso/la-linea-del-tempo",
+    href: "/tracce/la-linea-del-tempo",
     img: lineaDelTempoImg,
   },
   {
     titolo: "L'albero genealogico",
-    href: "/il-percorso/lalbero-genealogico",
+    href: "/tracce/lalbero-genealogico",
     img: alberoGenealogicoImg,
   },
   {
     titolo: "Incontri",
-    href: "/il-percorso/incontri",
+    href: "/tracce/incontri",
     img: incontriImg,
   },
   {
     titolo: "Viaggi",
-    href: "/il-percorso/viaggi",
+    href: "/tracce/viaggi",
     img: viaggiImg,
   },
   {
     titolo: "Il curriculum dell'autostima",
-    href: "/il-percorso/il-curriculum-dellautostima",
+    href: "/tracce/il-curriculum-dellautostima",
     img: curriculumAutostimaImg,
   },
   {
     titolo: "Le parole che fanno stare bene",
-    href: "/il-percorso/le-parole-che-fanno-stare-bene",
+    href: "/tracce/le-parole-che-fanno-stare-bene",
     img: paroleBeneImg,
   },
   {
     titolo: "La fine",
-    href: "/il-percorso/la-fine",
+    href: "/tracce/la-fine",
     img: fineImg,
   },
   {
     titolo: "La scatola del tempo",
-    href: "/il-percorso/la-scatola-del-tempo",
+    href: "/tracce/la-scatola-del-tempo",
     img: scatolaTempoImg,
   },
   {
     titolo: "Le letture",
-    href: "/il-percorso/le-letture",
+    href: "/tracce/le-letture",
     img: lettureImg,
   },
 ];
 
-const IlPercorso = () => {
+const Tracce = () => {
   return (
-    <PageShell title="Un percorso" wide>
+    <PageShell title="Tracce" wide>
       {/* Griglia tracce */}
       <section>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <article className="group">
-            <Link to="/il-percorso/come-sono-arrivata-fin-qui" className="block">
+            <Link to="/tracce/come-sono-arrivata-fin-qui" className="block">
               <div className="relative overflow-hidden rounded-sm bg-card-percorso ring-2 ring-foreground/60 ring-offset-4 ring-offset-background">
                 <img
                   src={introduzioneImg}
@@ -123,4 +123,4 @@ const IlPercorso = () => {
   );
 };
 
-export default IlPercorso;
+export default Tracce;

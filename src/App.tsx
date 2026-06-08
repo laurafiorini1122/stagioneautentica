@@ -7,7 +7,7 @@ import Index from "./pages/Index.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import UnUomo from "./pages/UnUomo.tsx";
 import UnaDonna from "./pages/UnaDonna.tsx";
-import IlPercorso from "./pages/IlPercorso.tsx";
+import Tracce from "./pages/Tracce.tsx";
 import ComeSonoArrivata from "./pages/percorso/ComeSonoArrivata.tsx";
 import IlCurriculumVitae from "./pages/percorso/IlCurriculumVitae.tsx";
 import LaLineaDelTempo from "./pages/percorso/LaLineaDelTempo.tsx";
@@ -132,18 +132,18 @@ const App = () => (
           <Route path="/una-donna/il-risparmio" element={<IlRisparmioDonna />} />
           <Route path="/una-donna/la-condivisione" element={<LaCondivisioneDonna />} />
           <Route path="/una-donna/ruoli-invertiti" element={<RuoliInvertitiDonna />} />
-          <Route path="/il-percorso" element={<IlPercorso />} />
-          <Route path="/il-percorso/come-sono-arrivata-fin-qui" element={<ComeSonoArrivata />} />
-          <Route path="/il-percorso/il-curriculum-vitae" element={<IlCurriculumVitae />} />
-          <Route path="/il-percorso/la-linea-del-tempo" element={<LaLineaDelTempo />} />
-          <Route path="/il-percorso/lalbero-genealogico" element={<LalberoGenealogico />} />
-          <Route path="/il-percorso/incontri" element={<Incontri />} />
-          <Route path="/il-percorso/viaggi" element={<Viaggi />} />
-          <Route path="/il-percorso/il-curriculum-dellautostima" element={<IlCurriculumDellAutostima />} />
-          <Route path="/il-percorso/le-parole-che-fanno-stare-bene" element={<LeParoleCheFannoStareBene />} />
-          <Route path="/il-percorso/la-fine" element={<LaFine />} />
-          <Route path="/il-percorso/la-scatola-del-tempo" element={<LaScatolaDelTempo />} />
-          <Route path="/il-percorso/le-letture" element={<LeLetture />} />
+          <Route path="/tracce" element={<Tracce />} />
+          <Route path="/tracce/come-sono-arrivata-fin-qui" element={<ComeSonoArrivata />} />
+          <Route path="/tracce/il-curriculum-vitae" element={<IlCurriculumVitae />} />
+          <Route path="/tracce/la-linea-del-tempo" element={<LaLineaDelTempo />} />
+          <Route path="/tracce/lalbero-genealogico" element={<LalberoGenealogico />} />
+          <Route path="/tracce/incontri" element={<Incontri />} />
+          <Route path="/tracce/viaggi" element={<Viaggi />} />
+          <Route path="/tracce/il-curriculum-dellautostima" element={<IlCurriculumDellAutostima />} />
+          <Route path="/tracce/le-parole-che-fanno-stare-bene" element={<LeParoleCheFannoStareBene />} />
+          <Route path="/tracce/la-fine" element={<LaFine />} />
+          <Route path="/tracce/la-scatola-del-tempo" element={<LaScatolaDelTempo />} />
+          <Route path="/tracce/le-letture" element={<LeLetture />} />
           <Route path="/contatti" element={<Contatti />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

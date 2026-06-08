@@ -64,9 +64,9 @@ const Index = () => {
             image={homeHero}
           />
           <SeasonCard
-            title="Un Percorso"
-            subtitle="Gli strumenti per guardarsi dentro"
-            to="/il-percorso"
+            title="Tracce"
+            subtitle="Percorsi da inventare"
+            to="/tracce"
             image={cardPercorso}
           />
         </div>
