@@ -4,7 +4,7 @@ import SeasonCard from "@/components/SeasonCard";
 import homeHero from "@/assets/home-hero.jpg";
 import cardUomo from "@/assets/un-uomo.png";
 import cardDonna from "@/assets/una-donna.jpg";
-import cardPercorso from "@/assets/il-percorso.png";
+import cardPercorso from "@/assets/Introduzione4.png";
 import { Link } from "react-router-dom";
 
 const Index = () => {
