@@ -1,6 +1,6 @@
 import PageShell from "@/components/PageShell";
 import { Link } from "react-router-dom";
-import introduzioneImg from "@/assets/percorso/Introduzione2.png";
+import introduzioneImg from "@/assets/percorso/Introduzione3.png";
 import cvImg from "@/assets/percorso/cv.jpg";
 import lineaDelTempoImg from "@/assets/percorso/linea-del-tempo.jpg";
 import alberoGenealogicoImg from "@/assets/percorso/albero-genealogico.jpg";
