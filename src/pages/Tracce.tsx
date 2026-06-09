@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import introduzioneImg from "@/assets/percorso/Introduzione3.png";
 import cvImg from "@/assets/percorso/cv.jpg";
 import lineaDelTempoImg from "@/assets/percorso/linea-del-tempo.jpg";
-import alberoGenealogicoImg from "@/assets/percorso/albero-genealogico.jpg";
+import alberoGenealogicoImg from "@/assets/percorso/Albero genealogico.png";
 import incontriImg from "@/assets/percorso/incontri.jpg";
 import viaggiImg from "@/assets/percorso/viaggi.jpg";
 import curriculumAutostimaImg from "@/assets/percorso/curriculum-autostima.jpg";
