@@ -18,17 +18,6 @@ const IlCurriculumVitae = () => {
 
       <section className="mt-16">
         <h2 className="font-serif text-2xl md:text-3xl text-foreground/70 tracking-tight mb-6">Strumenti</h2>
-        <p className={pCls}>
-          Scrivere un CV con Europass. Sito all'indirizzo{" "}
-          <a
-            href="https://europass.europa.eu/it"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline underline-offset-4 hover:text-foreground/60 transition-colors"
-          >
-            europass.europa.eu/it
-          </a>
-        </p>
       </section>
 
       <div className="mt-16 mb-8">
