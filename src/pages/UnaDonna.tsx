@@ -200,9 +200,13 @@ const UnaDonna = () => {
 
       {/* Download PDF */}
       <section className="mt-24 mb-8 text-center">
-        <span className="inline-block font-sans text-xs uppercase tracking-[0.2em] px-8 py-4 rounded-sm border border-foreground/40 text-foreground/40 cursor-default">
+        <a
+          href="/Stagione_autentica_Una_Donna.pdf"
+          download
+          className="inline-block font-sans text-xs uppercase tracking-[0.2em] px-8 py-4 rounded-sm border border-foreground/60 text-foreground hover:bg-foreground hover:text-background transition-colors"
+        >
           Scarica i racconti in PDF
-        </span>
+        </a>
       </section>
     </PageShell>
   );
