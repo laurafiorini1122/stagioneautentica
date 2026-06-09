@@ -68,7 +68,7 @@ const Index = () => {
             subtitle="Percorsi da inventare"
             to="/tracce"
             image={cardPercorso}
-            imageClassName="scale-110"
+            imageClassName="scale-[1.15]"
           />
         </div>
       </section>

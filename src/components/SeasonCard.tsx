@@ -15,12 +15,14 @@ const SeasonCard = ({ title, subtitle, to, image, imageClassName = "" }: SeasonC
       className="group flex flex-col overflow-hidden rounded-md border border-border bg-background transition-colors duration-500 hover:bg-foreground/[0.02]"
     >
       <div className="overflow-hidden aspect-[4/3]">
-        <img
-          src={image}
-          alt={title}
-          loading="lazy"
-          className={`w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03] ${imageClassName}`}
-        />
+        <div className="w-full h-full transition-transform duration-500 group-hover:scale-[1.03]">
+          <img
+            src={image}
+            alt={title}
+            loading="lazy"
+            className={`w-full h-full object-cover ${imageClassName}`}
+          />
+        </div>
       </div>
       <div className="flex flex-col items-center text-center px-8 py-10">
         <h2 className="font-serif text-3xl md:text-4xl text-foreground tracking-tight mb-4">
