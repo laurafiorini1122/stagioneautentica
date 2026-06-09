@@ -4,10 +4,7 @@ import { Link } from "react-router-dom";
 const ComeSonoArrivata = () => {
   const pCls = "font-serif text-lg leading-[1.8] text-foreground/85";
   return (
-    <PageShell
-      title="Come sono arrivata fin qui"
-      subtitle="Non avevo una mappa, me la sono costruita"
-    >
+    <PageShell title="Come sono arrivata fin qui">
       <article className="space-y-6">
         <p className={pCls}>Per quarant'anni il treno è stato in corsa. Non un treno qualsiasi: quello del lavoro, che assorbe energia, tempo, attenzione, e lascia poco o niente per tutto il resto. Le soste le avevo saltate tutte, convinta che concedermi del tempo significasse sottrarlo a qualcosa di più importante. Poi, un giorno, il treno si è fermato davvero. Mi sono ritrovata davanti a un paesaggio che non riconoscevo, senza cartelli e senza indicazioni.</p>
         <p className={pCls}>Da quel momento è iniziato il percorso che racconto qui. Non è un percorso finito, e probabilmente non lo sarà mai. Non è nemmeno uguale per tutti: le variabili sono troppe. Quello che ha funzionato per me potrebbe non funzionare per un altro, e viceversa.</p>
