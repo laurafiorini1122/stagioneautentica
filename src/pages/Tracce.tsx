@@ -1,12 +1,12 @@
 import PageShell from "@/components/PageShell";
 import { Link } from "react-router-dom";
 import introduzioneImg from "@/assets/percorso/Introduzione3.png";
-import cvImg from "@/assets/percorso/cv.jpg";
-import lineaDelTempoImg from "@/assets/percorso/linea-del-tempo.jpg";
+import cvImg from "@/assets/percorso/CV.png";
+import lineaDelTempoImg from "@/assets/percorso/LineaTempo.png";
 import alberoGenealogicoImg from "@/assets/percorso/Albero genealogico.png";
-import incontriImg from "@/assets/percorso/incontri.jpg";
-import viaggiImg from "@/assets/percorso/viaggi.jpg";
-import curriculumAutostimaImg from "@/assets/percorso/curriculum-autostima.jpg";
+import incontriImg from "@/assets/percorso/Incontri.png";
+import viaggiImg from "@/assets/percorso/Luoghi.png";
+import curriculumAutostimaImg from "@/assets/percorso/Autostima.png";
 import paroleBeneImg from "@/assets/percorso/parole-bene.jpg";
 import fineImg from "@/assets/percorso/fine.jpg";
 import scatolaTempoImg from "@/assets/percorso/scatola-tempo.jpg";
