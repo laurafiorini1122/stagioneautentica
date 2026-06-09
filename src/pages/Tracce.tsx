@@ -14,17 +14,17 @@ import lettureImg from "@/assets/percorso/letture.jpg";
 
 const tracce = [
   {
-    titolo: "Il curriculum vitae",
+    titolo: "Curriculum Vitae",
     href: "/tracce/il-curriculum-vitae",
     img: cvImg,
   },
   {
-    titolo: "La linea del tempo",
+    titolo: "Linea del Tempo",
     href: "/tracce/la-linea-del-tempo",
     img: lineaDelTempoImg,
   },
   {
-    titolo: "L'albero genealogico",
+    titolo: "Albero genealogico",
     href: "/tracce/lalbero-genealogico",
     img: alberoGenealogicoImg,
   },
@@ -34,32 +34,32 @@ const tracce = [
     img: incontriImg,
   },
   {
-    titolo: "Viaggi",
+    titolo: "Luoghi",
     href: "/tracce/viaggi",
     img: viaggiImg,
   },
   {
-    titolo: "Il curriculum dell'autostima",
+    titolo: "Curriculum dell'autostima",
     href: "/tracce/il-curriculum-dellautostima",
     img: curriculumAutostimaImg,
   },
   {
-    titolo: "Le parole che fanno stare bene",
+    titolo: "Parole che fanno stare bene",
     href: "/tracce/le-parole-che-fanno-stare-bene",
     img: paroleBeneImg,
   },
   {
-    titolo: "La fine",
+    titolo: "Fine",
     href: "/tracce/la-fine",
     img: fineImg,
   },
   {
-    titolo: "La scatola del tempo",
+    titolo: "Scatola del Tempo",
     href: "/tracce/la-scatola-del-tempo",
     img: scatolaTempoImg,
   },
   {
-    titolo: "Le letture",
+    titolo: "Letture",
     href: "/tracce/le-letture",
     img: lettureImg,
   },
@@ -96,7 +96,7 @@ const Tracce = () => {
                 </span>
               </div>
               <h3 className="mt-3 font-serif text-lg md:text-xl font-bold text-foreground tracking-tight underline-offset-4 group-hover:underline group-hover:text-foreground/70 transition-colors">
-                Come sono arrivata fin qui:<br />non avevo una mappa, me la sono costruita
+                Come sono arrivata fin qui
               </h3>
             </Link>
           </article>
