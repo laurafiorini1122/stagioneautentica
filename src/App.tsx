@@ -19,6 +19,7 @@ import LeParoleCheFannoStareBene from "./pages/percorso/LeParoleCheFannoStareBen
 import LaFine from "./pages/percorso/LaFine.tsx";
 import LaScatolaDelTempo from "./pages/percorso/LaScatolaDelTempo.tsx";
 import LeLetture from "./pages/percorso/LeLetture.tsx";
+import Specchio from "./pages/percorso/Specchio.tsx";
 import Letichetta from "./pages/racconti/Letichetta.tsx";
 import Lattesa from "./pages/racconti/Lattesa.tsx";
 import IlVoyeur from "./pages/racconti/IlVoyeur.tsx";
@@ -144,6 +145,7 @@ const App = () => (
           <Route path="/tracce/la-fine" element={<LaFine />} />
           <Route path="/tracce/la-scatola-del-tempo" element={<LaScatolaDelTempo />} />
           <Route path="/tracce/le-letture" element={<LeLetture />} />
+          <Route path="/tracce/specchio" element={<Specchio />} />
           <Route path="/contatti" element={<Contatti />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

@@ -1,16 +1,17 @@
 import PageShell from "@/components/PageShell";
 import { Link } from "react-router-dom";
-import introduzioneImg from "@/assets/percorso/Introduzione3.png";
+import introduzioneImg from "@/assets/percorso/Introduzionedef.png";
 import cvImg from "@/assets/percorso/CV.png";
 import lineaDelTempoImg from "@/assets/percorso/LineaTempo.png";
 import alberoGenealogicoImg from "@/assets/percorso/Albero genealogico.png";
 import incontriImg from "@/assets/percorso/Incontri.png";
 import viaggiImg from "@/assets/percorso/Luoghi.png";
+import specchioImg from "@/assets/percorso/Specchio.png";
 import curriculumAutostimaImg from "@/assets/percorso/Autostima.png";
-import paroleBeneImg from "@/assets/percorso/parole-bene.jpg";
-import fineImg from "@/assets/percorso/fine.jpg";
-import scatolaTempoImg from "@/assets/percorso/scatola-tempo.jpg";
-import lettureImg from "@/assets/percorso/letture.jpg";
+import paroleBeneImg from "@/assets/percorso/Parole.png";
+import fineImg from "@/assets/percorso/Fine.png";
+import scatolaTempoImg from "@/assets/percorso/Scatola Tempo.png";
+import lettureImg from "@/assets/percorso/Letture.png";
 
 const tracce = [
   {
@@ -37,6 +38,11 @@ const tracce = [
     titolo: "Luoghi",
     href: "/tracce/viaggi",
     img: viaggiImg,
+  },
+  {
+    titolo: "Specchio",
+    href: "/tracce/specchio",
+    img: specchioImg,
   },
   {
     titolo: "Curriculum dell'autostima",
