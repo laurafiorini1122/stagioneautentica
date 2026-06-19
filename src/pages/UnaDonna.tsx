@@ -163,8 +163,8 @@ const UnaDonna = () => {
                   style={{
                     top: "8px",
                     left: "8px",
-                    backgroundColor: "rgba(83,74,183,0.9)",
-                    color: "#CECBF6",
+                    backgroundColor: "rgba(120,76,48,0.9)",
+                    color: "#F5E6D3",
                     fontSize: "11px",
                     padding: "3px 8px",
                     borderRadius: "4px",
