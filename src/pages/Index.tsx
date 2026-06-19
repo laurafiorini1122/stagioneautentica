@@ -22,7 +22,7 @@ const Index = () => {
               className="inline-block w-7 h-px"
               style={{ background: "hsl(var(--accent-terracotta))" }}
             />
-            racconti · strumenti · scrittura collettiva
+            racconti · strumenti · scrittura collaborativa
           </p>
           <h1
             className="font-serif text-foreground tracking-tight mb-10 leading-[1.05]"
@@ -53,7 +53,7 @@ const Index = () => {
             </p>
             <p>
               Attraverso racconti scritti con ironia e lucidità, strumenti
-              concreti di riflessione e uno spazio di scrittura collettiva,
+              concreti di riflessione e uno spazio di scrittura collaborativa,
               La stagione più autentica esplora l'ultima fase della vita non
               come un epilogo, ma come il momento in cui, finalmente liberi
               dal ruolo, il tempo è davvero nostro e possiamo scegliere chi
