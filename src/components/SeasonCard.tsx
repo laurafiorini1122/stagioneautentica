@@ -1,18 +1,38 @@
 import { Link } from "react-router-dom";
 
+type Variant = "uomo" | "donna" | "tracce";
+
 interface SeasonCardProps {
   title: string;
   subtitle: string;
   to: string;
   image: string;
   imageClassName?: string;
+  variant?: Variant;
 }
 
-const SeasonCard = ({ title, subtitle, to, image, imageClassName = "" }: SeasonCardProps) => {
+const variantBg: Record<Variant, string> = {
+  uomo: "bg-card-uomo hover:bg-card-uomo-hover",
+  donna: "bg-card-donna hover:bg-card-donna-hover",
+  tracce: "bg-card-percorso hover:bg-card-percorso-hover",
+};
+
+const SeasonCard = ({
+  title,
+  subtitle,
+  to,
+  image,
+  imageClassName = "",
+  variant,
+}: SeasonCardProps) => {
+  const bgClass = variant
+    ? variantBg[variant]
+    : "bg-background border border-border hover:bg-foreground/[0.02]";
+
   return (
     <Link
       to={to}
-      className="group flex flex-col overflow-hidden rounded-md border border-border bg-background transition-colors duration-500 hover:bg-foreground/[0.02]"
+      className={`group flex flex-col overflow-hidden rounded-md transition-colors duration-500 ${bgClass}`}
     >
       <div className="overflow-hidden aspect-[4/3]">
         <div className="w-full h-full transition-transform duration-500 group-hover:scale-[1.03]">
@@ -29,7 +49,7 @@ const SeasonCard = ({ title, subtitle, to, image, imageClassName = "" }: SeasonC
           {title}
         </h2>
         <span className="block w-12 h-px bg-foreground/30 mb-4" />
-        <p className="font-serif italic text-base text-muted-foreground">
+        <p className="font-serif italic text-base text-foreground/70">
           {subtitle}
         </p>
       </div>

@@ -3,7 +3,6 @@ import SiteFooter from "@/components/SiteFooter";
 import SeasonCard from "@/components/SeasonCard";
 import homeHero from "@/assets/home-hero.jpg";
 import cardUomo from "@/assets/un-uomo.png";
-import cardDonna from "@/assets/una-donna.jpg";
 import cardPercorso from "@/assets/Tracce.png";
 import { Link } from "react-router-dom";
 
@@ -12,18 +11,34 @@ const Index = () => {
     <div className="min-h-screen bg-background flex flex-col">
       <SiteHeader minimal />
 
-      {/* Hero: solo testo, larghezza allineata alle 3 card */}
-      <section className="container py-12 md:py-16">
+      {/* Hero: solo testo */}
+      <section className="container py-12 md:py-20">
         <div className="max-w-6xl mx-auto">
-          <h1
-            className="font-serif text-foreground tracking-tight mb-10"
-            style={{ fontSize: "clamp(2rem, 3vw, 2.8rem)", lineHeight: 1.2 }}
+          <p
+            className="font-sans text-[11px] md:text-xs uppercase tracking-[0.22em] mb-6 flex items-center gap-3"
+            style={{ color: "hsl(var(--accent-terracotta))" }}
           >
-            La stagione più autentica
+            <span
+              className="inline-block w-7 h-px"
+              style={{ background: "hsl(var(--accent-terracotta))" }}
+            />
+            racconti · strumenti · scrittura collettiva
+          </p>
+          <h1
+            className="font-serif text-foreground tracking-tight mb-10 leading-[1.05]"
+            style={{ fontSize: "clamp(2.25rem, 4.5vw, 3.5rem)" }}
+          >
+            La stagione più{" "}
+            <em
+              className="italic font-normal"
+              style={{ color: "hsl(var(--accent-terracotta))" }}
+            >
+              autentica
+            </em>
           </h1>
           <div
-            className="font-serif text-foreground/85 text-base md:text-lg space-y-6"
-            style={{ lineHeight: 1.8 }}
+            className="font-sans text-foreground/85 text-base md:text-lg space-y-6"
+            style={{ lineHeight: 1.7 }}
           >
             <p>
               La scuola, il lavoro, la carriera ci preparano a produrre, a
@@ -52,18 +67,21 @@ const Index = () => {
       <section className="container pb-24">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
           <SeasonCard
+            variant="uomo"
             title="Un Uomo"
             subtitle="L'abisso raccontato con ironia"
             to="/un-uomo"
             image={cardUomo}
           />
           <SeasonCard
+            variant="donna"
             title="Una Donna"
             subtitle="Il finale riscritto con libertà"
             to="/una-donna"
             image={homeHero}
           />
           <SeasonCard
+            variant="tracce"
             title="Tracce"
             subtitle="Percorsi da inventare"
             to="/tracce"
@@ -78,7 +96,7 @@ const Index = () => {
         <div className="max-w-xl mx-auto text-center">
           <Link
             to="/contatti"
-            className="inline-block font-sans text-xs uppercase tracking-[0.2em] px-8 py-4 rounded-sm border border-foreground/40 text-foreground hover:bg-foreground hover:text-background transition-colors"
+            className="inline-block font-sans text-xs uppercase tracking-[0.22em] px-9 py-4 rounded-sm border border-foreground/40 text-foreground hover:bg-foreground hover:text-background transition-colors"
           >
             Contatti
           </Link>

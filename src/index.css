@@ -8,48 +8,50 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Palette neutra e calda - sobria, letteraria */
-    --background: 36 33% 94%;        /* #f5f0eb beige chiarissimo */
-    --foreground: 30 10% 18%;         /* testo caldo scuro */
+    /* Palette calda - crema, terracotta, marrone */
+    --background: 35 50% 91%;         /* #f4ebde crema caldo */
+    --foreground: 24 30% 17%;         /* #3a2a1f marrone scuro caldo */
 
-    --card: 0 0% 100%;
-    --card-foreground: 30 10% 18%;
+    --card: 35 45% 95%;
+    --card-foreground: 24 30% 17%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 30 10% 18%;
+    --popover: 35 45% 95%;
+    --popover-foreground: 24 30% 17%;
 
-    --primary: 30 12% 22%;
-    --primary-foreground: 36 33% 96%;
+    --primary: 24 35% 25%;
+    --primary-foreground: 35 50% 95%;
 
-    --secondary: 30 15% 90%;
-    --secondary-foreground: 30 12% 22%;
+    --secondary: 35 38% 86%;
+    --secondary-foreground: 24 35% 25%;
 
-    --muted: 30 15% 92%;
-    --muted-foreground: 30 8% 42%;
+    --muted: 35 38% 88%;
+    --muted-foreground: 25 23% 39%;   /* #7a604d marrone tenue */
 
-    --accent: 30 20% 88%;
-    --accent-foreground: 30 12% 22%;
+    --accent: 35 40% 84%;
+    --accent-foreground: 24 35% 25%;
+
+    --accent-terracotta: 19 41% 49%;  /* #b06a4a terracotta - per titoli e accenti */
 
     --destructive: 0 60% 45%;
-    --destructive-foreground: 36 33% 96%;
+    --destructive-foreground: 35 50% 95%;
 
-    --border: 30 12% 82%;
-    --input: 30 12% 82%;
-    --ring: 30 10% 30%;
+    --border: 35 33% 78%;             /* #d9c9b3 bordo caldo */
+    --input: 35 33% 78%;
+    --ring: 24 30% 25%;
 
     --radius: 0.375rem;
 
-    /* Card colors per le tre sezioni */
-    --card-uomo: 24 10% 89%;          /* #e8e4e0 grigio caldo chiaro */
-    --card-uomo-hover: 24 12% 85%;
-    --card-donna: 18 25% 92%;         /* #f0e8e4 rosa polvere */
-    --card-donna-hover: 18 25% 88%;
-    --card-percorso: 130 12% 91%;     /* #e4ebe6 verde salvia chiarissimo */
-    --card-percorso-hover: 130 14% 87%;
+    /* Card colors per le tre sezioni - toni caldi */
+    --card-uomo: 36 48% 81%;          /* #e6d4b8 sabbia */
+    --card-uomo-hover: 36 48% 77%;
+    --card-donna: 21 60% 82%;         /* #ecc8b4 rosa terracotta */
+    --card-donna-hover: 21 60% 78%;
+    --card-percorso: 73 26% 76%;      /* #cbd2b3 salvia calda */
+    --card-percorso-hover: 73 26% 72%;
 
-    /* Sfondi pagine interne */
-    --page-uomo: 30 10% 90%;          /* #eae6e2 grigio caldo */
-    --page-donna: 36 33% 97%;         /* #faf8f5 bianco caldo */
+    /* Sfondi pagine interne - più caldi */
+    --page-uomo: 36 35% 88%;          /* sabbia molto chiara */
+    --page-donna: 33 45% 95%;         /* crema chiarissimo */
 
     --sidebar-background: 0 0% 98%;
 
