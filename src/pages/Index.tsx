@@ -91,14 +91,20 @@ const Index = () => {
         </div>
       </section>
 
-      {/* CTA contatti */}
+      {/* CTA contatti + newsletter */}
       <section className="container pb-24">
-        <div className="max-w-xl mx-auto text-center">
+        <div className="max-w-xl mx-auto flex flex-wrap gap-4 justify-center">
           <Link
             to="/contatti"
             className="inline-block font-sans text-xs uppercase tracking-[0.22em] px-9 py-4 rounded-sm border border-foreground/40 text-foreground hover:bg-foreground hover:text-background transition-colors"
           >
             Contatti
+          </Link>
+          <Link
+            to="/newsletter"
+            className="inline-block font-sans text-xs uppercase tracking-[0.22em] px-9 py-4 rounded-sm border border-foreground/40 text-foreground hover:bg-foreground hover:text-background transition-colors"
+          >
+            Newsletter
           </Link>
         </div>
       </section>

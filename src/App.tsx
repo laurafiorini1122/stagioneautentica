@@ -25,6 +25,7 @@ import Lattesa from "./pages/racconti/Lattesa.tsx";
 import IlVoyeur from "./pages/racconti/IlVoyeur.tsx";
 import Introduzione from "./pages/racconti/Introduzione.tsx";
 import Contatti from "./pages/Contatti.tsx";
+import Newsletter from "./pages/Newsletter.tsx";
 import RiscriviamoInsieme from "./pages/racconti/RiscriviamoInsieme.tsx";
 import LetichettaDonna from "./pages/racconti/LetichettaDonna.tsx";
 import FinaleLaura from "./pages/racconti/FinaleLaura.tsx";
@@ -147,6 +148,7 @@ const App = () => (
           <Route path="/tracce/le-letture" element={<LeLetture />} />
           <Route path="/tracce/specchio" element={<Specchio />} />
           <Route path="/contatti" element={<Contatti />} />
+          <Route path="/newsletter" element={<Newsletter />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
