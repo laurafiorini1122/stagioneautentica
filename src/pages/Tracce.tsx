@@ -6,7 +6,6 @@ import lineaDelTempoImg from "@/assets/percorso/LineaTempo.png";
 import alberoGenealogicoImg from "@/assets/percorso/Albero genealogico.png";
 import incontriImg from "@/assets/percorso/Incontri.png";
 import viaggiImg from "@/assets/percorso/Luoghi.png";
-import specchioImg from "@/assets/percorso/Specchio.png";
 import curriculumAutostimaImg from "@/assets/percorso/Autostima.png";
 import paroleBeneImg from "@/assets/percorso/Parole.png";
 import fineImg from "@/assets/percorso/Fine.png";
@@ -38,11 +37,6 @@ const tracce = [
     titolo: "Luoghi",
     href: "/tracce/viaggi",
     img: viaggiImg,
-  },
-  {
-    titolo: "Specchio",
-    href: "/tracce/specchio",
-    img: specchioImg,
   },
   {
     titolo: "Curriculum dell'autostima",
