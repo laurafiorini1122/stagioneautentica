@@ -17,8 +17,22 @@ const IlCurriculumVitae = () => {
         <p className={pCls}>Poi ho aperto un documento nuovo.</p>
       </article>
 
-      <section className="mt-16">
+      <section className="mt-16 space-y-6">
         <h2 className="font-serif text-2xl md:text-3xl text-foreground/70 tracking-tight mb-6">Strumenti</h2>
+        <p className={pCls}>Il modulo qui sotto è scaricabile in formato Excel (.xlsx). Si apre con Microsoft Excel oppure, se non lo hai installato, con programmi gratuiti compatibili come LibreOffice o Excel Online.</p>
+        <p className={pCls}>Le sezioni sono già pronte e colorate: Informazioni personali, Esperienza professionale, Istruzione e formazione, Competenze personali, Sezioni aggiuntive. Basta scrivere accanto a ogni etichetta.</p>
+        <p className={pCls}>Non tutte le voci ti riguarderanno. Se devi togliere delle parti, seleziona le righe da eliminare e premendo il tasto destro del mouse, scegli "elimina". Il foglio resta con solo ciò che ti serve.</p>
+        <p className={pCls}>Vale anche il contrario. Per aggiungere parti non previste dal file, copia un blocco di righe già pronto e incollalo subito sotto, poi modifica i contenuti. Accanto ad alcuni blocchi trovi anche un piccolo simbolo "meno": premilo per comprimere quella parte e vedere il documento nel suo insieme.</p>
+        <p className={pCls}>Il file è tuo: aggiungi, togli, sposta le righe finché non risulta comodo da leggere.</p>
+        <p className={pCls}>
+          <a
+            href="/Curriculum_Vitae.xlsx"
+            download
+            className="underline underline-offset-4 hover:text-foreground transition-colors"
+          >
+            Scarica il modulo in formato Excel
+          </a>
+        </p>
       </section>
 
       <div className="mt-16 mb-8">
