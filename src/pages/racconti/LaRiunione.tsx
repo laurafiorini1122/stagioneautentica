@@ -16,7 +16,7 @@ const LaRiunione = () => {
           width={1600}
           height={900}
           loading="lazy"
-          className="w-full h-auto object-cover"
+          className="w-full aspect-[16/9] object-cover"
         />
       </div>
 
