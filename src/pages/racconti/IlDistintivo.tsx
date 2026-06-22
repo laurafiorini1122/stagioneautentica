@@ -16,7 +16,7 @@ const IlDistintivo = () => {
           width={1600}
           height={900}
           loading="lazy"
-          className="w-full aspect-[16/9] object-cover"
+          className="w-full aspect-[16/9] object-cover object-top"
         />
       </div>
 
