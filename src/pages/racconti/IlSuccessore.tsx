@@ -4,7 +4,11 @@ import ilSuccessoreImg from "@/assets/unuomo-il-successore.png";
 
 const IlSuccessore = () => {
   return (
-    <PageShell title="Il successore" bgClassName="bg-page-uomo">
+    <PageShell
+      title="Il successore"
+      subtitle="Restare informati è un modo di non andarsene"
+      bgClassName="bg-page-uomo"
+    >
       <div className="mb-12 overflow-hidden rounded-sm">
         <img
           src={ilSuccessoreImg}

@@ -4,7 +4,11 @@ import ilDistintivoImg from "@/assets/unuomo-il-distintivo.png";
 
 const IlDistintivo = () => {
   return (
-    <PageShell title="Il distintivo" bgClassName="bg-page-uomo">
+    <PageShell
+      title="Il distintivo"
+      subtitle="Un nome scritto su un cartellino è ancora un'identità"
+      bgClassName="bg-page-uomo"
+    >
       <div className="mb-12 overflow-hidden rounded-sm">
         <img
           src={ilDistintivoImg}

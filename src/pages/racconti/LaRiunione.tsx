@@ -4,7 +4,11 @@ import laRiunioneImg from "@/assets/unuomo-la-riunione.png";
 
 const LaRiunione = () => {
   return (
-    <PageShell title="La riunione" bgClassName="bg-page-uomo">
+    <PageShell
+      title="La riunione"
+      subtitle="Senza un ordine del giorno, la giornata non comincia"
+      bgClassName="bg-page-uomo"
+    >
       <div className="mb-12 overflow-hidden rounded-sm">
         <img
           src={laRiunioneImg}

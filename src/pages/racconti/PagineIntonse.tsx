@@ -4,7 +4,11 @@ import pagineIntonseImg from "@/assets/unuomo-pagine-intonse.png";
 
 const PagineIntonse = () => {
   return (
-    <PageShell title="Pagine intonse" bgClassName="bg-page-uomo">
+    <PageShell
+      title="Pagine intonse"
+      subtitle="Quello che sai vale quanto qualcuno è disposto ad usarlo"
+      bgClassName="bg-page-uomo"
+    >
       <div className="mb-12 overflow-hidden rounded-sm">
         <img
           src={pagineIntonseImg}

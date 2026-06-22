@@ -4,7 +4,11 @@ import ilGruppoWhatsappImg from "@/assets/unuomo-il-gruppo-whatsapp.png";
 
 const IlGruppoWhatsapp = () => {
   return (
-    <PageShell title="Il gruppo WhatsApp" bgClassName="bg-page-uomo">
+    <PageShell
+      title="Il gruppo WhatsApp"
+      subtitle="Quando qualcuno ti risponde, esisti ancora"
+      bgClassName="bg-page-uomo"
+    >
       <div className="mb-12 overflow-hidden rounded-sm">
         <img
           src={ilGruppoWhatsappImg}
