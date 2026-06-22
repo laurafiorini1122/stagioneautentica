@@ -24,6 +24,11 @@ import ilRisparmioImg from "@/assets/il-risparmio.jpg";
 import laCondivisioneImg from "@/assets/la-condivisione.jpg";
 import ruoliInvertitiImg from "@/assets/ruoli-invertiti.jpg";
 import introduzioneImg from "@/assets/introduzione.jpg";
+import ilSuccessoreImg from "@/assets/unuomo-il-successore.png";
+import ilDistintivoImg from "@/assets/unuomo-il-distintivo.png";
+import laRiunioneImg from "@/assets/unuomo-la-riunione.png";
+import pagineIntonseImg from "@/assets/unuomo-pagine-intonse.png";
+import ilGruppoWhatsappImg from "@/assets/unuomo-il-gruppo-whatsapp.png";
 
 const racconti = [
   {
@@ -140,6 +145,31 @@ const racconti = [
     titolo: "Ruoli invertiti",
     href: "/un-uomo/ruoli-invertiti",
     img: ruoliInvertitiImg,
+  },
+  {
+    titolo: "Il successore",
+    href: "/un-uomo/il-successore",
+    img: ilSuccessoreImg,
+  },
+  {
+    titolo: "Il distintivo",
+    href: "/un-uomo/il-distintivo",
+    img: ilDistintivoImg,
+  },
+  {
+    titolo: "La riunione",
+    href: "/un-uomo/la-riunione",
+    img: laRiunioneImg,
+  },
+  {
+    titolo: "Pagine intonse",
+    href: "/un-uomo/pagine-intonse",
+    img: pagineIntonseImg,
+  },
+  {
+    titolo: "Il gruppo WhatsApp",
+    href: "/un-uomo/il-gruppo-whatsapp",
+    img: ilGruppoWhatsappImg,
   },
 ];
 

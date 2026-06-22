@@ -48,6 +48,11 @@ import AlloSpecchio from "./pages/racconti/AlloSpecchio.tsx";
 import IlRisparmio from "./pages/racconti/IlRisparmio.tsx";
 import LaCondivisione from "./pages/racconti/LaCondivisione.tsx";
 import RuoliInvertiti from "./pages/racconti/RuoliInvertiti.tsx";
+import IlSuccessore from "./pages/racconti/IlSuccessore.tsx";
+import IlDistintivo from "./pages/racconti/IlDistintivo.tsx";
+import LaRiunione from "./pages/racconti/LaRiunione.tsx";
+import PagineIntonse from "./pages/racconti/PagineIntonse.tsx";
+import IlGruppoWhatsapp from "./pages/racconti/IlGruppoWhatsapp.tsx";
 import LattesaDonna from "./pages/racconti/LattesaDonna.tsx";
 import LaVoyeur from "./pages/racconti/LaVoyeur.tsx";
 import LaRoutineDonna from "./pages/racconti/LaRoutineDonna.tsx";
@@ -106,6 +111,11 @@ const App = () => (
           <Route path="/un-uomo/il-risparmio" element={<IlRisparmio />} />
           <Route path="/un-uomo/la-condivisione" element={<LaCondivisione />} />
           <Route path="/un-uomo/ruoli-invertiti" element={<RuoliInvertiti />} />
+          <Route path="/un-uomo/il-successore" element={<IlSuccessore />} />
+          <Route path="/un-uomo/il-distintivo" element={<IlDistintivo />} />
+          <Route path="/un-uomo/la-riunione" element={<LaRiunione />} />
+          <Route path="/un-uomo/pagine-intonse" element={<PagineIntonse />} />
+          <Route path="/un-uomo/il-gruppo-whatsapp" element={<IlGruppoWhatsapp />} />
           <Route path="/una-donna" element={<UnaDonna />} />
           <Route path="/una-donna/riscriviamo-insieme" element={<RiscriviamoInsieme />} />
           <Route path="/una-donna/letichetta" element={<LetichettaDonna />} />
