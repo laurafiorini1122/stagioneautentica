@@ -26,10 +26,10 @@ const PagineIntonse = () => {
         <img
           src={pagineIntonseImg}
           alt="Pagine intonse"
-          width={1600}
-          height={900}
+          width={2752}
+          height={1536}
           loading="lazy"
-          className="block mx-auto w-full aspect-[16/9] object-contain"
+          className="w-full h-auto object-cover"
         />
       </div>
 

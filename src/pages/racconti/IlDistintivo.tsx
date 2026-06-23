@@ -28,14 +28,14 @@ const IlDistintivo = () => {
       subtitle="Un nome scritto su un cartellino è ancora un'identità"
       bgClassName="bg-page-uomo"
     >
-      <div className="mb-12 mx-auto max-w-[60%] overflow-hidden rounded-sm">
+      <div className="mb-12 overflow-hidden rounded-sm">
         <img
           src={ilDistintivoImg}
           alt="Il distintivo"
-          width={2048}
-          height={2048}
+          width={2752}
+          height={1536}
           loading="lazy"
-          className="w-full h-auto"
+          className="w-full h-auto object-cover"
         />
       </div>
 
