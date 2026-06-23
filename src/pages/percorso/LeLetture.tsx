@@ -23,24 +23,19 @@ const LeLetture = () => {
         </p>
       </article>
 
-      <section className="mt-16">
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
+      <section className="mt-16 max-w-5xl mx-auto">
+        <div className="flex flex-wrap gap-8">
           {letture.map((l) => (
-            <article key={l.titolo} className="group max-w-[220px]">
-              <Link to={l.href} className="block">
-                <div className="overflow-hidden rounded-sm bg-card-percorso shadow-md">
-                  <img
-                    src={l.img}
-                    alt={l.titolo}
-                    loading="lazy"
-                    className="w-full aspect-[2/3] object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-                  />
-                </div>
-                <h3 className="mt-3 font-serif text-sm text-foreground tracking-tight underline-offset-4 group-hover:underline group-hover:text-foreground/70 transition-colors">
-                  {l.titolo}
-                </h3>
-              </Link>
-            </article>
+            <Link key={l.titolo} to={l.href} className="group block w-[220px]">
+              <div className="overflow-hidden rounded-sm bg-card-percorso shadow-md">
+                <img
+                  src={l.img}
+                  alt={l.titolo}
+                  loading="lazy"
+                  className="w-full aspect-[2/3] object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                />
+              </div>
+            </Link>
           ))}
         </div>
       </section>
