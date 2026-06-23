@@ -13,8 +13,8 @@ const letture = [
 const LeLetture = () => {
   const pCls = "font-serif text-lg leading-[1.8] text-foreground/85";
   return (
-    <PageShell title="Le letture" subtitle="Una traccia per guardarsi dentro">
-      <article className="space-y-6">
+    <PageShell title="Le letture" subtitle="Una traccia per guardarsi dentro" wide>
+      <article className="space-y-6 max-w-5xl mx-auto">
         <p className={pCls}>
           Certi libri aprono uno spiraglio su come le cose potrebbero essere viste diversamente. E ogni tanto si trovano autori che hanno già pensato ad alta voce quello che noi sentiamo ma non sappiamo ancora dire: è una di quelle soddisfazioni silenziose che la lettura sa dare.
         </p>
@@ -36,7 +36,7 @@ const LeLetture = () => {
                     className="w-full aspect-[2/3] object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                   />
                 </div>
-                <h3 className="mt-3 font-serif text-base md:text-lg text-foreground tracking-tight underline-offset-4 group-hover:underline group-hover:text-foreground/70 transition-colors">
+                <h3 className="mt-3 font-serif text-sm text-foreground tracking-tight underline-offset-4 group-hover:underline group-hover:text-foreground/70 transition-colors">
                   {l.titolo}
                 </h3>
               </Link>
