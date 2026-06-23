@@ -6,7 +6,7 @@ const BotanicaDellaMeraviglia = () => {
   const hCls = "font-serif text-2xl md:text-3xl text-foreground mt-12 mb-4";
 
   return (
-    <PageShell title="La botanica della meraviglia" subtitle="Una traccia per guardarsi dentro">
+    <PageShell title="La botanica della meraviglia">
       <article className="space-y-6">
         <div className="mb-10 font-serif text-foreground/85">
           <p className="text-xl md:text-2xl italic leading-snug">
