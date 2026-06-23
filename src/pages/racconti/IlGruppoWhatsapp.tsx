@@ -32,7 +32,7 @@ const IlGruppoWhatsapp = () => {
           width={1600}
           height={900}
           loading="lazy"
-          className="w-full h-auto object-contain"
+          className="block mx-auto w-full aspect-[16/9] object-contain"
         />
       </div>
 
