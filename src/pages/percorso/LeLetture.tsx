@@ -1,12 +1,18 @@
 import PageShell from "@/components/PageShell";
 import { Link } from "react-router-dom";
 import botanicaMeravigliaImg from "@/assets/Copertina La Botanica della meraviglia.jpg";
+import perdonareSeStessiImg from "@/assets/perdonare-sestessi-eglialtri.jpg";
 
 const letture = [
   {
     titolo: "La botanica della meraviglia",
     href: "/tracce/le-letture/botanica-della-meraviglia",
     img: botanicaMeravigliaImg,
+  },
+  {
+    titolo: "Perdonare se stessi e gli altri",
+    href: "/tracce/le-letture/perdonare-se-stessi-e-gli-altri",
+    img: perdonareSeStessiImg,
   },
 ];
 
