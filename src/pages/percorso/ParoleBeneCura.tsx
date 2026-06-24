@@ -25,7 +25,6 @@ const parole = [
     citazione:
       "La leggerezza per me si associa con la precisione e la determinazione, non con la vaghezza e l'abbandono al caso",
     autore: "Italo Calvino",
-    opera: "Lezioni americane",
   },
   {
     nome: "Bellezza",
@@ -62,11 +61,6 @@ const ParoleBeneCura = () => {
             </p>
             <p className="mt-3 font-sans text-sm uppercase tracking-[0.2em] text-muted-foreground">
               — {p.autore}
-              {p.opera && (
-                <>
-                  , <em className="italic normal-case tracking-normal">{p.opera}</em>
-                </>
-              )}
             </p>
           </div>
         ))}
