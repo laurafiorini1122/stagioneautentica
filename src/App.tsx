@@ -16,6 +16,10 @@ import Incontri from "./pages/percorso/Incontri.tsx";
 import Viaggi from "./pages/percorso/Viaggi.tsx";
 import IlCurriculumDellAutostima from "./pages/percorso/IlCurriculumDellAutostima.tsx";
 import LeParoleCheFannoStareBene from "./pages/percorso/LeParoleCheFannoStareBene.tsx";
+import ParoleBenePresenza from "./pages/percorso/ParoleBenePresenza.tsx";
+import ParoleBeneSlancio from "./pages/percorso/ParoleBeneSlancio.tsx";
+import ParoleBeneCura from "./pages/percorso/ParoleBeneCura.tsx";
+import ParoleBeneLegame from "./pages/percorso/ParoleBeneLegame.tsx";
 import LaFine from "./pages/percorso/LaFine.tsx";
 import LaScatolaDelTempo from "./pages/percorso/LaScatolaDelTempo.tsx";
 import LeLetture from "./pages/percorso/LeLetture.tsx";
@@ -154,6 +158,10 @@ const App = () => (
           <Route path="/tracce/viaggi" element={<Viaggi />} />
           <Route path="/tracce/il-curriculum-dellautostima" element={<IlCurriculumDellAutostima />} />
           <Route path="/tracce/le-parole-che-fanno-stare-bene" element={<LeParoleCheFannoStareBene />} />
+          <Route path="/tracce/le-parole-che-fanno-stare-bene/presenza" element={<ParoleBenePresenza />} />
+          <Route path="/tracce/le-parole-che-fanno-stare-bene/slancio" element={<ParoleBeneSlancio />} />
+          <Route path="/tracce/le-parole-che-fanno-stare-bene/cura" element={<ParoleBeneCura />} />
+          <Route path="/tracce/le-parole-che-fanno-stare-bene/legame" element={<ParoleBeneLegame />} />
           <Route path="/tracce/la-fine" element={<LaFine />} />
           <Route path="/tracce/la-scatola-del-tempo" element={<LaScatolaDelTempo />} />
           <Route path="/tracce/le-letture" element={<LeLetture />} />
