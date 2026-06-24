@@ -81,6 +81,11 @@ import AlloSpecchioDonna from "./pages/racconti/AlloSpecchioDonna.tsx";
 import IlRisparmioDonna from "./pages/racconti/IlRisparmioDonna.tsx";
 import LaCondivisioneDonna from "./pages/racconti/LaCondivisioneDonna.tsx";
 import RuoliInvertitiDonna from "./pages/racconti/RuoliInvertitiDonna.tsx";
+import IlSuccessoreDonna from "./pages/racconti/IlSuccessoreDonna.tsx";
+import IlDistintivoDonna from "./pages/racconti/IlDistintivoDonna.tsx";
+import LaRiunioneDonna from "./pages/racconti/LaRiunioneDonna.tsx";
+import PagineIntonseDonna from "./pages/racconti/PagineIntonseDonna.tsx";
+import IlGruppoWhatsappDonna from "./pages/racconti/IlGruppoWhatsappDonna.tsx";
 
 const queryClient = new QueryClient();
 
@@ -149,6 +154,11 @@ const App = () => (
           <Route path="/una-donna/il-risparmio" element={<IlRisparmioDonna />} />
           <Route path="/una-donna/la-condivisione" element={<LaCondivisioneDonna />} />
           <Route path="/una-donna/ruoli-invertiti" element={<RuoliInvertitiDonna />} />
+          <Route path="/una-donna/il-successore" element={<IlSuccessoreDonna />} />
+          <Route path="/una-donna/il-distintivo" element={<IlDistintivoDonna />} />
+          <Route path="/una-donna/la-riunione" element={<LaRiunioneDonna />} />
+          <Route path="/una-donna/pagine-intonse" element={<PagineIntonseDonna />} />
+          <Route path="/una-donna/il-gruppo-whatsapp" element={<IlGruppoWhatsappDonna />} />
           <Route path="/tracce" element={<Tracce />} />
           <Route path="/tracce/come-sono-arrivata-fin-qui" element={<ComeSonoArrivata />} />
           <Route path="/tracce/il-curriculum-vitae" element={<IlCurriculumVitae />} />

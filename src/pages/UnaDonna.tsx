@@ -24,6 +24,11 @@ import alloSpecchioImg from "@/assets/allo-specchio-donna.jpg";
 import ilRisparmioImg from "@/assets/il-risparmio-donna.jpg";
 import laCondivisioneImg from "@/assets/la-condivisione-donna.jpg";
 import ruoliInvertitiImg from "@/assets/ruoli-invertiti-donna.jpg";
+import ilSuccessoreImg from "@/assets/donna-il-successore.png";
+import ilDistintivoImg from "@/assets/donna-il-distintivo.png";
+import laRiunioneImg from "@/assets/donna-la-riunione.png";
+import pagineIntonseImg from "@/assets/donna-pagine-intonse.png";
+import ilGruppoWhatsappImg from "@/assets/donna-il-gruppo-whatsapp.png";
 
 const racconti = [
   {
@@ -140,6 +145,31 @@ const racconti = [
     titolo: "Ruoli invertiti",
     href: "/una-donna/ruoli-invertiti",
     img: ruoliInvertitiImg,
+  },
+  {
+    titolo: "Il successore",
+    href: "/una-donna/il-successore",
+    img: ilSuccessoreImg,
+  },
+  {
+    titolo: "Il distintivo",
+    href: "/una-donna/il-distintivo",
+    img: ilDistintivoImg,
+  },
+  {
+    titolo: "La riunione",
+    href: "/una-donna/la-riunione",
+    img: laRiunioneImg,
+  },
+  {
+    titolo: "Pagine intonse",
+    href: "/una-donna/pagine-intonse",
+    img: pagineIntonseImg,
+  },
+  {
+    titolo: "Il gruppo WhatsApp",
+    href: "/una-donna/il-gruppo-whatsapp",
+    img: ilGruppoWhatsappImg,
   },
 ];
 
