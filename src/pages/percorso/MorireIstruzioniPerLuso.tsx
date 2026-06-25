@@ -10,8 +10,8 @@ const MorireIstruzioniPerLuso = () => {
     <PageShell title="Morire. Istruzioni per l'uso" subtitle="Una traccia per guardarsi dentro">
       <article className="space-y-6">
         <div className="mb-10 font-serif text-foreground/85">
-          <p className="text-base">Simon Boas</p>
-          <p className="text-base text-foreground/70">Garzanti</p>
+          <p className="text-2xl md:text-3xl">Simon Boas</p>
+          <p className="text-base text-foreground/70 mt-1">Garzanti</p>
         </div>
 
         <p className={pCls}>
