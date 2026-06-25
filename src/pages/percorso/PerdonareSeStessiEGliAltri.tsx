@@ -9,7 +9,7 @@ const PerdonareSeStessiEGliAltri = () => {
     <PageShell title="Perdonare se stessi e gli altri" subtitle="Strategie per fare pace con il passato">
       <article className="space-y-6">
         <div className="mb-10 font-serif text-foreground/85">
-          <p className="text-base">Guidalberto Bormolini, Roberta Milanese</p>
+          <p className="text-2xl md:text-3xl">Guidalberto Bormolini, Roberta Milanese</p>
         </div>
 
         <p className={pCls}>
