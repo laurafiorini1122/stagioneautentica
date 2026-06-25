@@ -2,6 +2,7 @@ import PageShell from "@/components/PageShell";
 import { Link } from "react-router-dom";
 import botanicaMeravigliaImg from "@/assets/Copertina La Botanica della meraviglia.jpg";
 import perdonareSeStessiImg from "@/assets/perdonare-sestessi-eglialtri.jpg";
+import morireIstruzioniImg from "@/assets/morire-istruzioni-per-luso.jpg";
 
 const letture = [
   {
@@ -13,6 +14,11 @@ const letture = [
     titolo: "Perdonare se stessi e gli altri",
     href: "/tracce/le-letture/perdonare-se-stessi-e-gli-altri",
     img: perdonareSeStessiImg,
+  },
+  {
+    titolo: "Morire. Istruzioni per l'uso",
+    href: "/tracce/le-letture/morire-istruzioni-per-luso",
+    img: morireIstruzioniImg,
   },
 ];
 
