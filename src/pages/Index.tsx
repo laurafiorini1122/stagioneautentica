@@ -43,21 +43,27 @@ const Index = () => {
             <p>
               La scuola, il lavoro, la carriera ci preparano a produrre, a
               occupare un ruolo, a essere utili. Ma nessuno ci insegna cosa
-              fare quando quel ruolo finisce.
+              fare quando quel ruolo finisce, o quando iniziamo a chiederci
+              se sia mai stato davvero nostro.
             </p>
             <p>
-              Questo sito nasce da quel momento — il disorientamento dei
-              primi mesi di pensione, la domanda «Cosa fai ora?» che suona
-              come una sentenza, e il lungo percorso per trasformare quella
-              crisi in qualcosa di inaspettatamente ricco.
+              Questo sito nasce da un momento preciso: il disorientamento dei
+              primi mesi di pensione, quando la domanda «Cosa fai ora?»
+              comincia a suonare come una sentenza. Da quella crisi è nato un
+              percorso, lungo e inaspettatamente ricco.
+            </p>
+            <p>
+              Non serve aspettare la pensione per porsi certe domande. Chi si
+              avvicina a quel traguardo può arrivarci con più consapevolezza,
+              chi ne è ancora lontano può scegliere fin da subito di non
+              perdere nulla di sé lungo la strada.
             </p>
             <p>
               Attraverso racconti scritti con ironia e lucidità, strumenti
               concreti di riflessione e uno spazio di scrittura collaborativa,
-              La stagione più autentica esplora l'ultima fase della vita non
-              come un epilogo, ma come il momento in cui, finalmente liberi
-              dal ruolo, il tempo è davvero nostro e possiamo scegliere chi
-              essere...
+              La stagione più autentica esplora questo territorio: non un
+              epilogo, ma il tempo, a qualunque età, in cui possiamo scegliere
+              chi essere.
             </p>
           </div>
         </div>
