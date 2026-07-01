@@ -29,7 +29,7 @@ const Introduzione = () => {
           Emozioni? Felice, sollevata dal peso di mille responsabilità. Ma anche con la strana sensazione di abitare un corpo diverso, con la pelle improvvisamente esposta a stimoli nuovi.
         </p>
         <p className={pCls}>
-          La scuola, l'università, i diversi ruoli lavorativi mi avevano insegnato a produrre, a essere utile, a occupare un posto riconoscibile nella società. Era questo il patto: ti formano, ti inquadrano, ti rendono utile. Nessuno, però, ritiene necessario prepararti a ciò che viene dopo, perché «dopo», per il sistema, non sei più interessante. Una volta esaurita la tua funzione produttiva, il contratto si considera concluso. Quello che fai del tempo che resta è affar tuo.
+          La scuola, l'università, i diversi ruoli lavorativi mi avevano insegnato a produrre, a essere utile, a occupare un posto riconoscibile nella società. Era questo il patto: ti formano, ti inquadrano, ti rendono utile. Nessuno, però, ritiene necessario prepararti a ciò che viene dopo, perché «dopo», per il sistema, non sei più interessante. Una volta esaurita la tua funzione produttiva, il contratto si considera concluso. Quello che fai del tempo che resta è affar tuo. È un patto che si rompe alla pensione, ma non solo lì: si rompe ogni volta che un ruolo che credevamo definitivo finisce o si allenta o smettiamo di riconoscerci in esso.
         </p>
         <p className={pCls}>
           Le persone che incontro — ex colleghi, conoscenti — sono entusiaste: «Ma come ti fa bene la pensione! Sei più rilassata! Hai proprio cambiato faccia!»
@@ -44,7 +44,7 @@ const Introduzione = () => {
           Tutto ruota intorno al fare, mentre io sono sospesa in un territorio sconosciuto dove il fare si è dissolto nell'essere che, per ora, non sa ancora come presentarsi.
         </p>
         <p className={pCls}>
-          Trascorro le settimane che seguono a fare cose: pulisco, riordino, sistemo. Ma tutto diventa presto ripetitivo. Riprendo attività che il lavoro mi aveva impedito, o che avevo sacrificato al senso del dovere, ma le sento inutili. Mi iscrivo a corsi di lingua, di yoga. Mi infastidisce la routine, il rispetto degli orari: almeno questo, il privilegio di non doverli più subire, avrei voluto tenermelo.
+          Trascorro le settimane che seguono a fare cose: pulisco, riordino, sistemo. Ma tutto diventa presto ripetitivo. Riprendo attività che il lavoro mi aveva impedito o che avevo sacrificato al senso del dovere, ma le sento inutili. Mi iscrivo a corsi di lingua, di yoga. Mi infastidisce la routine, il rispetto degli orari: almeno questo, il privilegio di non doverli più subire, avrei voluto tenermelo.
         </p>
         <p className={pCls}>
           Il mio sguardo è sempre rivolto fuori. Cerco una risposta socialmente presentabile alla domanda «cosa fai ora», una risposta che mi restituisca un ruolo, una funzione, un posto nel mondo che gli altri possano riconoscere.
@@ -85,7 +85,7 @@ const Introduzione = () => {
           Storie che seguono la logica del Peggioramento Strategico: portano l'alienazione al suo estremo kafkiano non per pessimismo, ma per smascherarne l'assurdità. Mostrare l'abisso è un reagente chimico: solo toccando il fondo si riconosce la propria gabbia e si scorge, per contrasto, la luce di qualcosa di più autentico. La catastrofe, qui, è la bussola per la libertà.
         </p>
         <p className={pCls}>
-          Perché uomini? Perché sono loro, statisticamente e socialmente, i più colpiti da questa transizione. L'uomo come incarnazione estrema dell'identità-lavoro, della difficoltà a staccarsi dal ruolo, del controllo portato all'assurdo.
+          Perché uomini? Perché sono loro, statisticamente e socialmente, i più colpiti da questa transizione. L'uomo come incarnazione estrema dell'identità-lavoro, della difficoltà a staccarsi dal ruolo, del controllo portato all'assurdo. Ma la crisi che li attraversa non ha bisogno della pensione per manifestarsi. Basta la perdita, anche solo temporanea, del ruolo in cui credevamo di riconoscerci.
         </p>
         <p className={pCls}>
           Alla fine di queste storie al buio, arriva il momento di riscriverle.
