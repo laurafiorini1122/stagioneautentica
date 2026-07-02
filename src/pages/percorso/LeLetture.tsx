@@ -9,46 +9,76 @@ import socrateAgataEIlFuturoImg from "@/assets/Severgnini.jpg";
 import lascioTuttoERipartoDaMeImg from "@/assets/Manfredi.jpg";
 import viaggiPostumiImg from "@/assets/Viaggi_postumi.jpg";
 
-const letture = [
+const categorie = [
   {
-    titolo: "La botanica della meraviglia",
-    href: "/tracce/le-letture/botanica-della-meraviglia",
-    img: botanicaMeravigliaImg,
+    titolo: "Fine vita",
+    intro: "Chi ha guardato la fine da vicino e ha capito cosa contava davvero",
+    libri: [
+      {
+        titolo: "Morire. Istruzioni per l'uso",
+        href: "/tracce/le-letture/morire-istruzioni-per-luso",
+        img: morireIstruzioniImg,
+      },
+      {
+        titolo: "La notte non fa paura",
+        href: "/tracce/le-letture/la-notte-non-fa-paura",
+        img: laNotteNonFaPauraImg,
+      },
+    ],
   },
   {
-    titolo: "Perdonare se stessi e gli altri",
-    href: "/tracce/le-letture/perdonare-se-stessi-e-gli-altri",
-    img: perdonareSeStessiImg,
+    titolo: "Trasformarsi",
+    intro: "Il punto in cui restare se stessi significa accettare di cambiare",
+    libri: [
+      {
+        titolo: "Socrate, Agata e il futuro",
+        href: "/tracce/le-letture/socrate-agata-e-il-futuro",
+        img: socrateAgataEIlFuturoImg,
+      },
+      {
+        titolo: "Lascio tutto e riparto da me",
+        href: "/tracce/le-letture/lascio-tutto-e-riparto-da-me",
+        img: lascioTuttoERipartoDaMeImg,
+      },
+    ],
   },
   {
-    titolo: "Morire. Istruzioni per l'uso",
-    href: "/tracce/le-letture/morire-istruzioni-per-luso",
-    img: morireIstruzioniImg,
+    titolo: "Guardarsi dentro",
+    intro: "Fare i conti con quello che siamo, senza sconti",
+    libri: [
+      {
+        titolo: "L'ingannevole paura di non essere all'altezza",
+        href: "/tracce/le-letture/lingannevole-paura-di-non-essere-allaltezza",
+        img: ingannevolePauraImg,
+      },
+      {
+        titolo: "Perdonare se stessi e gli altri",
+        href: "/tracce/le-letture/perdonare-se-stessi-e-gli-altri",
+        img: perdonareSeStessiImg,
+      },
+    ],
   },
   {
-    titolo: "La notte non fa paura",
-    href: "/tracce/le-letture/la-notte-non-fa-paura",
-    img: laNotteNonFaPauraImg,
+    titolo: "Dopo di noi",
+    intro: "Quello che resta di noi, oltre il nostro controllo",
+    libri: [
+      {
+        titolo: "Viaggi postumi",
+        href: "/tracce/le-letture/viaggi-postumi",
+        img: viaggiPostumiImg,
+      },
+    ],
   },
   {
-    titolo: "L'ingannevole paura di non essere all'altezza",
-    href: "/tracce/le-letture/lingannevole-paura-di-non-essere-allaltezza",
-    img: ingannevolePauraImg,
-  },
-  {
-    titolo: "Socrate, Agata e il futuro",
-    href: "/tracce/le-letture/socrate-agata-e-il-futuro",
-    img: socrateAgataEIlFuturoImg,
-  },
-  {
-    titolo: "Lascio tutto e riparto da me",
-    href: "/tracce/le-letture/lascio-tutto-e-riparto-da-me",
-    img: lascioTuttoERipartoDaMeImg,
-  },
-  {
-    titolo: "Viaggi postumi",
-    href: "/tracce/le-letture/viaggi-postumi",
-    img: viaggiPostumiImg,
+    titolo: "Presenza e stupore",
+    intro: "Uno sguardo che si allena a vedere, non solo a guardare",
+    libri: [
+      {
+        titolo: "La botanica della meraviglia",
+        href: "/tracce/le-letture/botanica-della-meraviglia",
+        img: botanicaMeravigliaImg,
+      },
+    ],
   },
 ];
 
@@ -65,21 +95,31 @@ const LeLetture = () => {
         </p>
       </article>
 
-      <section className="mt-16 max-w-5xl mx-auto">
-        <div className="flex flex-wrap gap-8">
-          {letture.map((l) => (
-            <Link key={l.titolo} to={l.href} className="group block w-[220px]">
-              <div className="overflow-hidden rounded-sm bg-card-percorso shadow-md">
-                <img
-                  src={l.img}
-                  alt={l.titolo}
-                  loading="lazy"
-                  className="w-full aspect-[2/3] object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-                />
-              </div>
-            </Link>
-          ))}
-        </div>
+      <section className="mt-16 max-w-5xl mx-auto space-y-14">
+        {categorie.map((cat) => (
+          <div key={cat.titolo}>
+            <h2 className="font-serif text-2xl md:text-3xl text-foreground tracking-tight">
+              {cat.titolo}
+            </h2>
+            <p className="font-serif italic text-sm text-muted-foreground mt-2 mb-6">
+              {cat.intro}
+            </p>
+            <div className="flex flex-wrap gap-6">
+              {cat.libri.map((l) => (
+                <Link key={l.titolo} to={l.href} className="group block w-[155px]">
+                  <div className="overflow-hidden rounded-sm bg-card-percorso shadow-md">
+                    <img
+                      src={l.img}
+                      alt={l.titolo}
+                      loading="lazy"
+                      className="w-full aspect-[2/3] object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                    />
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        ))}
       </section>
 
       <div className="mt-16 mb-8">
