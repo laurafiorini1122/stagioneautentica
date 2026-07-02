@@ -4,6 +4,7 @@ import botanicaMeravigliaImg from "@/assets/Copertina La Botanica della meravigl
 import perdonareSeStessiImg from "@/assets/perdonare-sestessi-eglialtri.jpg";
 import morireIstruzioniImg from "@/assets/morire-istruzioni-per-luso.jpg";
 import laNotteNonFaPauraImg from "@/assets/Copertina La notte non fa paura.jpg";
+import ingannevolePauraImg from "@/assets/Copertina-Milanese.jpg";
 
 const letture = [
   {
@@ -25,6 +26,11 @@ const letture = [
     titolo: "La notte non fa paura",
     href: "/tracce/le-letture/la-notte-non-fa-paura",
     img: laNotteNonFaPauraImg,
+  },
+  {
+    titolo: "L'ingannevole paura di non essere all'altezza",
+    href: "/tracce/le-letture/lingannevole-paura-di-non-essere-allaltezza",
+    img: ingannevolePauraImg,
   },
 ];
 
