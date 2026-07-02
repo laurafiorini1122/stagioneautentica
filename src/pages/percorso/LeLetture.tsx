@@ -7,6 +7,7 @@ import laNotteNonFaPauraImg from "@/assets/Copertina La notte non fa paura.jpg";
 import ingannevolePauraImg from "@/assets/Copertina-Milanese.jpg";
 import socrateAgataEIlFuturoImg from "@/assets/Severgnini.jpg";
 import lascioTuttoERipartoDaMeImg from "@/assets/Manfredi.jpg";
+import viaggiPostumiImg from "@/assets/Viaggi_postumi.jpg";
 
 const letture = [
   {
@@ -43,6 +44,11 @@ const letture = [
     titolo: "Lascio tutto e riparto da me",
     href: "/tracce/le-letture/lascio-tutto-e-riparto-da-me",
     img: lascioTuttoERipartoDaMeImg,
+  },
+  {
+    titolo: "Viaggi postumi",
+    href: "/tracce/le-letture/viaggi-postumi",
+    img: viaggiPostumiImg,
   },
 ];
 
