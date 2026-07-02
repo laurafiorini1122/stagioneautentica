@@ -26,6 +26,7 @@ import LeLetture from "./pages/percorso/LeLetture.tsx";
 import BotanicaDellaMeraviglia from "./pages/percorso/BotanicaDellaMeraviglia.tsx";
 import PerdonareSeStessiEGliAltri from "./pages/percorso/PerdonareSeStessiEGliAltri.tsx";
 import MorireIstruzioniPerLuso from "./pages/percorso/MorireIstruzioniPerLuso.tsx";
+import LaNotteNonFaPaura from "./pages/percorso/LaNotteNonFaPaura.tsx";
 import Letichetta from "./pages/racconti/Letichetta.tsx";
 import Lattesa from "./pages/racconti/Lattesa.tsx";
 import IlVoyeur from "./pages/racconti/IlVoyeur.tsx";
@@ -179,6 +180,7 @@ const App = () => (
           <Route path="/tracce/le-letture/botanica-della-meraviglia" element={<BotanicaDellaMeraviglia />} />
           <Route path="/tracce/le-letture/perdonare-se-stessi-e-gli-altri" element={<PerdonareSeStessiEGliAltri />} />
           <Route path="/tracce/le-letture/morire-istruzioni-per-luso" element={<MorireIstruzioniPerLuso />} />
+          <Route path="/tracce/le-letture/la-notte-non-fa-paura" element={<LaNotteNonFaPaura />} />
           <Route path="/contatti" element={<Contatti />} />
           <Route path="/newsletter" element={<Newsletter />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

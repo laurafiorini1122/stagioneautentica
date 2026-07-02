@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import botanicaMeravigliaImg from "@/assets/Copertina La Botanica della meraviglia.jpg";
 import perdonareSeStessiImg from "@/assets/perdonare-sestessi-eglialtri.jpg";
 import morireIstruzioniImg from "@/assets/morire-istruzioni-per-luso.jpg";
+import laNotteNonFaPauraImg from "@/assets/Copertina La notte non fa paura.jpg";
 
 const letture = [
   {
@@ -19,6 +20,11 @@ const letture = [
     titolo: "Morire. Istruzioni per l'uso",
     href: "/tracce/le-letture/morire-istruzioni-per-luso",
     img: morireIstruzioniImg,
+  },
+  {
+    titolo: "La notte non fa paura",
+    href: "/tracce/le-letture/la-notte-non-fa-paura",
+    img: laNotteNonFaPauraImg,
   },
 ];
 
