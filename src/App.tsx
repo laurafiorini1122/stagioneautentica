@@ -29,6 +29,7 @@ import MorireIstruzioniPerLuso from "./pages/percorso/MorireIstruzioniPerLuso.ts
 import LaNotteNonFaPaura from "./pages/percorso/LaNotteNonFaPaura.tsx";
 import LingannevolePauraDiNonEssereAllAltezza from "./pages/percorso/LingannevolePauraDiNonEssereAllAltezza.tsx";
 import SocrateAgataEIlFuturo from "./pages/percorso/SocrateAgataEIlFuturo.tsx";
+import LascioTuttoERipartoDaMe from "./pages/percorso/LascioTuttoERipartoDaMe.tsx";
 import Letichetta from "./pages/racconti/Letichetta.tsx";
 import Lattesa from "./pages/racconti/Lattesa.tsx";
 import IlVoyeur from "./pages/racconti/IlVoyeur.tsx";
@@ -185,6 +186,7 @@ const App = () => (
           <Route path="/tracce/le-letture/la-notte-non-fa-paura" element={<LaNotteNonFaPaura />} />
           <Route path="/tracce/le-letture/lingannevole-paura-di-non-essere-allaltezza" element={<LingannevolePauraDiNonEssereAllAltezza />} />
           <Route path="/tracce/le-letture/socrate-agata-e-il-futuro" element={<SocrateAgataEIlFuturo />} />
+          <Route path="/tracce/le-letture/lascio-tutto-e-riparto-da-me" element={<LascioTuttoERipartoDaMe />} />
           <Route path="/contatti" element={<Contatti />} />
           <Route path="/newsletter" element={<Newsletter />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

@@ -6,6 +6,7 @@ import morireIstruzioniImg from "@/assets/morire-istruzioni-per-luso.jpg";
 import laNotteNonFaPauraImg from "@/assets/Copertina La notte non fa paura.jpg";
 import ingannevolePauraImg from "@/assets/Copertina-Milanese.jpg";
 import socrateAgataEIlFuturoImg from "@/assets/Severgnini.jpg";
+import lascioTuttoERipartoDaMeImg from "@/assets/Manfredi.jpg";
 
 const letture = [
   {
@@ -37,6 +38,11 @@ const letture = [
     titolo: "Socrate, Agata e il futuro",
     href: "/tracce/le-letture/socrate-agata-e-il-futuro",
     img: socrateAgataEIlFuturoImg,
+  },
+  {
+    titolo: "Lascio tutto e riparto da me",
+    href: "/tracce/le-letture/lascio-tutto-e-riparto-da-me",
+    img: lascioTuttoERipartoDaMeImg,
   },
 ];
 
