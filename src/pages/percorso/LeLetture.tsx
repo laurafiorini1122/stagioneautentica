@@ -5,6 +5,7 @@ import perdonareSeStessiImg from "@/assets/perdonare-sestessi-eglialtri.jpg";
 import morireIstruzioniImg from "@/assets/morire-istruzioni-per-luso.jpg";
 import laNotteNonFaPauraImg from "@/assets/Copertina La notte non fa paura.jpg";
 import ingannevolePauraImg from "@/assets/Copertina-Milanese.jpg";
+import socrateAgataEIlFuturoImg from "@/assets/Severgnini.jpg";
 
 const letture = [
   {
@@ -31,6 +32,11 @@ const letture = [
     titolo: "L'ingannevole paura di non essere all'altezza",
     href: "/tracce/le-letture/lingannevole-paura-di-non-essere-allaltezza",
     img: ingannevolePauraImg,
+  },
+  {
+    titolo: "Socrate, Agata e il futuro",
+    href: "/tracce/le-letture/socrate-agata-e-il-futuro",
+    img: socrateAgataEIlFuturoImg,
   },
 ];
 
