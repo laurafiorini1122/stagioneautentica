@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const LeIntermittenzeDellaMorte = () => {
   return (
-    <PageShell title="Le intermittenze della morte" subtitle="Cosa succede quando la morte smette di funzionare">
+    <PageShell title="Le intermittenze della morte">
       <article className="space-y-6">
         <div className="mb-10 font-serif text-foreground/85">
           <p className="text-2xl md:text-3xl">José Saramago</p>
