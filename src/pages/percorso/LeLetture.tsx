@@ -8,6 +8,9 @@ import ingannevolePauraImg from "@/assets/Copertina-Milanese.jpg";
 import socrateAgataEIlFuturoImg from "@/assets/Severgnini.jpg";
 import lascioTuttoERipartoDaMeImg from "@/assets/Manfredi.jpg";
 import viaggiPostumiImg from "@/assets/Viaggi_postumi.jpg";
+import leIntermittenzeDellaMorteImg from "@/assets/saramago.jpg";
+import avventurePostumeImg from "@/assets/avventure.jpg";
+import liberatiDellaBravaBambinaImg from "@/assets/bambina.jpg";
 
 const categorie = [
   {
@@ -23,6 +26,11 @@ const categorie = [
         titolo: "La notte non fa paura",
         href: "/tracce/le-letture/la-notte-non-fa-paura",
         img: laNotteNonFaPauraImg,
+      },
+      {
+        titolo: "Le intermittenze della morte",
+        href: "/tracce/le-letture/le-intermittenze-della-morte",
+        img: leIntermittenzeDellaMorteImg,
       },
     ],
   },
@@ -56,6 +64,11 @@ const categorie = [
         href: "/tracce/le-letture/perdonare-se-stessi-e-gli-altri",
         img: perdonareSeStessiImg,
       },
+      {
+        titolo: "Liberati della brava bambina",
+        href: "/tracce/le-letture/liberati-della-brava-bambina",
+        img: liberatiDellaBravaBambinaImg,
+      },
     ],
   },
   {
@@ -66,6 +79,11 @@ const categorie = [
         titolo: "Viaggi postumi",
         href: "/tracce/le-letture/viaggi-postumi",
         img: viaggiPostumiImg,
+      },
+      {
+        titolo: "Avventure postume di personaggi illustri",
+        href: "/tracce/le-letture/avventure-postume-di-personaggi-illustri",
+        img: avventurePostumeImg,
       },
     ],
   },

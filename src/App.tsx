@@ -31,6 +31,9 @@ import LingannevolePauraDiNonEssereAllAltezza from "./pages/percorso/Lingannevol
 import SocrateAgataEIlFuturo from "./pages/percorso/SocrateAgataEIlFuturo.tsx";
 import LascioTuttoERipartoDaMe from "./pages/percorso/LascioTuttoERipartoDaMe.tsx";
 import ViaggiPostumi from "./pages/percorso/ViaggiPostumi.tsx";
+import LeIntermittenzeDellaMorte from "./pages/percorso/LeIntermittenzeDellaMorte.tsx";
+import AvventurePostumeDiPersonaggiIllustri from "./pages/percorso/AvventurePostumeDiPersonaggiIllustri.tsx";
+import LiberatiDellaBravaBambina from "./pages/percorso/LiberatiDellaBravaBambina.tsx";
 import Letichetta from "./pages/racconti/Letichetta.tsx";
 import Lattesa from "./pages/racconti/Lattesa.tsx";
 import IlVoyeur from "./pages/racconti/IlVoyeur.tsx";
@@ -189,6 +192,9 @@ const App = () => (
           <Route path="/tracce/le-letture/socrate-agata-e-il-futuro" element={<SocrateAgataEIlFuturo />} />
           <Route path="/tracce/le-letture/lascio-tutto-e-riparto-da-me" element={<LascioTuttoERipartoDaMe />} />
           <Route path="/tracce/le-letture/viaggi-postumi" element={<ViaggiPostumi />} />
+          <Route path="/tracce/le-letture/le-intermittenze-della-morte" element={<LeIntermittenzeDellaMorte />} />
+          <Route path="/tracce/le-letture/avventure-postume-di-personaggi-illustri" element={<AvventurePostumeDiPersonaggiIllustri />} />
+          <Route path="/tracce/le-letture/liberati-della-brava-bambina" element={<LiberatiDellaBravaBambina />} />
           <Route path="/contatti" element={<Contatti />} />
           <Route path="/newsletter" element={<Newsletter />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
