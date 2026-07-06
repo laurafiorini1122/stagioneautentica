@@ -11,6 +11,7 @@ import paroleBeneImg from "@/assets/percorso/Parole.png";
 import fineImg from "@/assets/percorso/Fine.png";
 import scatolaTempoImg from "@/assets/percorso/Scatola Tempo.png";
 import lettureImg from "@/assets/percorso/Letture.png";
+import filmImg from "@/assets/film.png";
 
 const tracce = [
   {
@@ -62,6 +63,11 @@ const tracce = [
     titolo: "Letture",
     href: "/tracce/le-letture",
     img: lettureImg,
+  },
+  {
+    titolo: "Film",
+    href: "/tracce/film",
+    img: filmImg,
   },
 ];
 
