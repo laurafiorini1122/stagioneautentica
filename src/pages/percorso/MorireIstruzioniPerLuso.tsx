@@ -7,11 +7,11 @@ const MorireIstruzioniPerLuso = () => {
   const qCls = "font-serif italic text-lg leading-[1.8] text-foreground/85 border-l-2 border-foreground/30 pl-6 my-8";
 
   return (
-    <PageShell title="Morire. Istruzioni per l'uso" subtitle="Una traccia per guardarsi dentro">
+    <PageShell title="Morire. Istruzioni per l'uso">
       <article className="space-y-6">
         <div className="mb-10 font-serif text-foreground/85">
           <p className="text-2xl md:text-3xl">Simon Boas</p>
-          <p className="text-base text-foreground/70 mt-1">Garzanti</p>
+          <p className="text-base text-foreground/70 mt-1">Garzanti, 2025</p>
         </div>
 
         <p className={pCls}>
