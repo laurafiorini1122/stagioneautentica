@@ -69,7 +69,12 @@ const Film = () => {
 
   return (
     <PageShell title="Film" wide>
-      <section className="max-w-5xl mx-auto space-y-20">
+      <article className="max-w-5xl mx-auto space-y-6">
+        <p className={pCls}>Ci sono film che raccontano per immagini quello che i libri dicono con le parole: uno sguardo, un silenzio, un'inquadratura che resta più a lungo di mille spiegazioni. Non spiegano un concetto, lo fanno vedere, e a volte questo basta per capirlo meglio.</p>
+        <p className={pCls}>In questa sezione ho raccolto film che parlano, in modi diversi, dei temi di questo percorso: il tempo che cambia forma, i bilanci di una vita, il coraggio di ricominciare, gli addii. Non sono recensioni: sono titoli che mi hanno lasciato qualcosa, e che forse lasceranno qualcosa anche a te.</p>
+      </article>
+
+      <section className="max-w-5xl mx-auto space-y-20 mt-16">
         {film.map((f) => (
           <div key={f.titoloIt} className="flex flex-col sm:flex-row gap-8">
             <div className="shrink-0 w-[220px] mx-auto sm:mx-0">
