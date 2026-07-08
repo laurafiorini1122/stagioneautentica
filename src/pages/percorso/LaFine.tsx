@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const LaFine = () => {
   const pCls = "font-serif text-lg leading-[1.8] text-foreground/85";
   return (
-    <PageShell title="La fine" subtitle="Una traccia per guardarsi dentro">
+    <PageShell title="La fine">
       <article className="space-y-6">
         <p className={pCls}>
           Pensare alla morte — chiamiamola come è — non è piacevole. Eppure, come ci insegnano molti autori che trovate nella sezione{" "}

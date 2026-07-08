@@ -28,7 +28,7 @@ const LeParoleCheFannoStareBene = () => {
   const pCls = "font-serif text-lg leading-[1.8] text-foreground/85";
 
   return (
-    <PageShell title="Le parole che fanno stare bene" subtitle="Una traccia per guardarsi dentro">
+    <PageShell title="Le parole che fanno stare bene">
       <article className="space-y-6">
         <p className={pCls}>
           Ci sono parole che non si limitano a descrivere: fanno qualcosa. Le senti pronunciare o le leggi e qualcosa si allenta, dentro. Non sempre sai spiegare perché. Ho raccolto le mie. Le ho divise per aree, per affinità, come si sistemano le cose quando trovano il loro posto. Forse ne riconosci alcune. Forse ne hai altre, tue. C'è spazio anche per quelle. Scrivi a{" "}

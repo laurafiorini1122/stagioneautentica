@@ -103,7 +103,7 @@ const categorie = [
 const LeLetture = () => {
   const pCls = "font-serif text-lg leading-[1.8] text-foreground/85";
   return (
-    <PageShell title="Le letture" subtitle="Una traccia per guardarsi dentro" wide>
+    <PageShell title="Le letture" wide>
       <article className="space-y-6 max-w-5xl mx-auto">
         <p className={pCls}>
           Certi libri aprono uno spiraglio su come le cose potrebbero essere viste diversamente. E ogni tanto si trovano autori che hanno già pensato ad alta voce quello che noi sentiamo ma non sappiamo ancora dire: è una di quelle soddisfazioni silenziose che la lettura sa dare.
