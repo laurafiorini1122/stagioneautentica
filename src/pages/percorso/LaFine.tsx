@@ -28,6 +28,9 @@ const LaFine = () => {
         <p className={pCls}>
           Un altro atto di libertà, sempre secondo me, è compilare il testamento biologico: mettere per iscritto la nostra voce per il giorno in cui non potremmo più farla sentire. Non ci si pensa, per scaramanzia o per paura. Ma se accade qualcosa di irreversibile e non abbiamo lasciato nulla di scritto, quella voce scompare con noi.
         </p>
+        <p className={pCls}>
+          C'è poi un terzo atto pratico, forse il più prosaico ma non meno importante: fare testamento. Vale soprattutto se la propria situazione familiare è complicata, nuove unioni, figli di matrimoni diversi, eredità da dividere tra persone che non sempre vanno d'accordo. Mettere per iscritto le proprie volontà non è un gesto di sfiducia verso chi resta: è un modo per evitare che, dopo di noi, nascano guerre tra parenti su cose che a noi, a quel punto, non importeranno più.
+        </p>
       </article>
 
       <div className="mt-16 mb-8">
