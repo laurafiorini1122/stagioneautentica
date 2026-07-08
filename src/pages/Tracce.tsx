@@ -1,6 +1,7 @@
 import PageShell from "@/components/PageShell";
 import { Link } from "react-router-dom";
 import introduzioneImg from "@/assets/percorso/Introduzionedef.png";
+import nuovoTempoImg from "@/assets/percorso/nuovotempo.png";
 import cvImg from "@/assets/percorso/CV.png";
 import lineaDelTempoImg from "@/assets/percorso/LineaTempo.png";
 import alberoGenealogicoImg from "@/assets/percorso/Albero genealogico.png";
@@ -82,7 +83,7 @@ const Tracce = () => {
               <div className="relative overflow-hidden rounded-sm bg-card-percorso ring-2 ring-foreground/60 ring-offset-4 ring-offset-background">
                 <img
                   src={introduzioneImg}
-                  alt="Il nuovo tempo"
+                  alt="Alcune Tracce"
                   loading="lazy"
                   className="w-full aspect-[4/3] object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                 />
@@ -102,7 +103,22 @@ const Tracce = () => {
                 </span>
               </div>
               <h3 className="mt-3 font-serif text-lg md:text-xl font-bold text-foreground tracking-tight underline-offset-4 group-hover:underline group-hover:text-foreground/70 transition-colors">
-                Il nuovo tempo
+                Alcune Tracce
+              </h3>
+            </Link>
+          </article>
+          <article className="group">
+            <Link to="/tracce/il-nuovo-tempo" className="block">
+              <div className="overflow-hidden rounded-sm bg-card-percorso">
+                <img
+                  src={nuovoTempoImg}
+                  alt="Il nuovo Tempo"
+                  loading="lazy"
+                  className="w-full aspect-[4/3] object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                />
+              </div>
+              <h3 className="mt-3 font-serif text-lg md:text-xl text-foreground tracking-tight underline-offset-4 group-hover:underline group-hover:text-foreground/70 transition-colors">
+                Il nuovo Tempo
               </h3>
             </Link>
           </article>

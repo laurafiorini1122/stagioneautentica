@@ -9,6 +9,7 @@ import UnUomo from "./pages/UnUomo.tsx";
 import UnaDonna from "./pages/UnaDonna.tsx";
 import Tracce from "./pages/Tracce.tsx";
 import ComeSonoArrivata from "./pages/percorso/ComeSonoArrivata.tsx";
+import IlNuovoTempo from "./pages/percorso/IlNuovoTempo.tsx";
 import IlCurriculumVitae from "./pages/percorso/IlCurriculumVitae.tsx";
 import LaLineaDelTempo from "./pages/percorso/LaLineaDelTempo.tsx";
 import LalberoGenealogico from "./pages/percorso/LalberoGenealogico.tsx";
@@ -171,6 +172,7 @@ const App = () => (
           <Route path="/una-donna/il-gruppo-whatsapp" element={<IlGruppoWhatsappDonna />} />
           <Route path="/tracce" element={<Tracce />} />
           <Route path="/tracce/come-sono-arrivata-fin-qui" element={<ComeSonoArrivata />} />
+          <Route path="/tracce/il-nuovo-tempo" element={<IlNuovoTempo />} />
           <Route path="/tracce/il-curriculum-vitae" element={<IlCurriculumVitae />} />
           <Route path="/tracce/la-linea-del-tempo" element={<LaLineaDelTempo />} />
           <Route path="/tracce/lalbero-genealogico" element={<LalberoGenealogico />} />

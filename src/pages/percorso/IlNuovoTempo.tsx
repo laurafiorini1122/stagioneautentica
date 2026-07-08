@@ -1,0 +1,27 @@
+import PageShell from "@/components/PageShell";
+import { Link } from "react-router-dom";
+
+const IlNuovoTempo = () => {
+  const pCls = "font-serif text-lg leading-[1.8] text-foreground/85";
+  return (
+    <PageShell title="Il nuovo Tempo">
+      <article className="space-y-6">
+        <p className={pCls}>C'è un tempo che comincia adesso e non assomiglia a nessuno di quelli vissuti finora. Non è il tempo del lavoro, scandito da orari e scadenze di altri. Non è nemmeno il tempo libero di una domenica, quello che finisce in poche ore. È un tempo nuovo, più lungo, tutto da inventare.</p>
+        <p className={pCls}>Chi si ferma, in questo nuovo Tempo, rischia di lasciarsi scivolare addosso le giornate senza accorgersene. Bisogna muoversi, anche a costo di sbagliare.</p>
+        <p className={pCls}>C'è un rimpianto che ricorre più di altri in chi guarda indietro alla propria vita. Non riguarda quello che si è fatto, ma quello che non si è stati: non se stessi fino in fondo, ma quello che gli altri si aspettavano, quello che il lavoro chiedeva. Sentimenti mai detti, relazioni importanti lasciate in secondo piano.</p>
+        <p className={pCls}>Se non si fa pace con questo, restano le abitudini di sempre, i piccoli egoismi, la pigrizia che si giustifica da sola. In questo nuovo Tempo, qualcosa di quello che il lavoro ci ha tolto possiamo ancora riprendercelo.</p>
+        <p className={pCls}>Da giovani non sappiamo cosa ci aspetta. Il futuro è fatto in parte di caso, ma la parte più grande dipende da come guardiamo alla vita: è quell'atteggiamento, più di ogni altra cosa, a indirizzare il destino.</p>
+        <p className={pCls}>La pensione permette di fare quello che si è sempre rimandato. Non parlo di diventare campioni di pattinaggio, anche se da ragazzi lo si sognava. Parlo di cose piccole, che diventano grandi quando finalmente si trova il tempo per farle. Il tempo, adesso, è nostro.</p>
+        <p className={pCls}>Ma non serve aspettare la pensione per prendersi quel tempo: a volte basta deciderlo.</p>
+      </article>
+
+      <div className="mt-16 mb-8">
+        <Link to="/tracce" className="font-sans text-sm uppercase tracking-[0.25em] text-muted-foreground hover:text-foreground transition-colors">
+          ← Torna a Tracce
+        </Link>
+      </div>
+    </PageShell>
+  );
+};
+
+export default IlNuovoTempo;
