@@ -56,7 +56,7 @@ const tracce = [
     img: fineImg,
   },
   {
-    titolo: "Scatola del Tempo",
+    titolo: "Scatola delle Tracce",
     href: "/tracce/la-scatola-del-tempo",
     img: scatolaTempoImg,
   },
