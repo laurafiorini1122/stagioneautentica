@@ -10,7 +10,7 @@ const BotanicaDellaMeraviglia = () => {
       <article className="space-y-6">
         <div className="mb-10 font-serif text-foreground/85">
           <p className="text-2xl md:text-3xl">Maura Gancitano, Andrea Colamedici</p>
-          <p className="text-base text-foreground/70 mt-1">HarperCollins Italia</p>
+          <p className="text-base text-foreground/70 mt-1">HarperCollins Italia, 2025</p>
         </div>
 
         <p className={pCls}>
