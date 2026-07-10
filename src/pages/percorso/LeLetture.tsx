@@ -17,14 +17,14 @@ const categorie = [
     intro: "Chi ha guardato la fine da vicino e ha capito cosa contava davvero",
     libri: [
       {
-        titolo: "Morire. Istruzioni per l'uso",
-        href: "/tracce/le-letture/morire-istruzioni-per-luso",
-        img: morireIstruzioniImg,
-      },
-      {
         titolo: "La notte non fa paura",
         href: "/tracce/le-letture/la-notte-non-fa-paura",
         img: laNotteNonFaPauraImg,
+      },
+      {
+        titolo: "Morire. Istruzioni per l'uso",
+        href: "/tracce/le-letture/morire-istruzioni-per-luso",
+        img: morireIstruzioniImg,
       },
     ],
   },
