@@ -10,6 +10,7 @@ const PerdonareSeStessiEGliAltri = () => {
       <article className="space-y-6">
         <div className="mb-10 font-serif text-foreground/85">
           <p className="text-2xl md:text-3xl">Guidalberto Bormolini, Roberta Milanese</p>
+          <p className="text-base text-foreground/70 mt-1">Edizioni Messaggero Padova, 2023</p>
         </div>
 
         <p className={pCls}>
