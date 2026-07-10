@@ -6,7 +6,6 @@ import morireIstruzioniImg from "@/assets/morire-istruzioni-per-luso.jpg";
 import laNotteNonFaPauraImg from "@/assets/Copertina La notte non fa paura.jpg";
 import ingannevolePauraImg from "@/assets/Copertina-Milanese.jpg";
 import socrateAgataEIlFuturoImg from "@/assets/Severgnini.jpg";
-import lascioTuttoERipartoDaMeImg from "@/assets/Manfredi.jpg";
 import viaggiPostumiImg from "@/assets/Viaggi_postumi.jpg";
 import leIntermittenzeDellaMorteImg from "@/assets/saramago.jpg";
 import avventurePostumeImg from "@/assets/avventure.jpg";
@@ -27,11 +26,6 @@ const categorie = [
         href: "/tracce/le-letture/la-notte-non-fa-paura",
         img: laNotteNonFaPauraImg,
       },
-      {
-        titolo: "Le intermittenze della morte",
-        href: "/tracce/le-letture/le-intermittenze-della-morte",
-        img: leIntermittenzeDellaMorteImg,
-      },
     ],
   },
   {
@@ -39,14 +33,19 @@ const categorie = [
     intro: "Il punto in cui restare se stessi significa accettare di cambiare",
     libri: [
       {
+        titolo: "Le intermittenze della morte",
+        href: "/tracce/le-letture/le-intermittenze-della-morte",
+        img: leIntermittenzeDellaMorteImg,
+      },
+      {
+        titolo: "La botanica della meraviglia",
+        href: "/tracce/le-letture/botanica-della-meraviglia",
+        img: botanicaMeravigliaImg,
+      },
+      {
         titolo: "Socrate, Agata e il futuro",
         href: "/tracce/le-letture/socrate-agata-e-il-futuro",
         img: socrateAgataEIlFuturoImg,
-      },
-      {
-        titolo: "Lascio tutto e riparto da me",
-        href: "/tracce/le-letture/lascio-tutto-e-riparto-da-me",
-        img: lascioTuttoERipartoDaMeImg,
       },
     ],
   },
@@ -84,17 +83,6 @@ const categorie = [
         titolo: "Avventure postume di personaggi illustri",
         href: "/tracce/le-letture/avventure-postume-di-personaggi-illustri",
         img: avventurePostumeImg,
-      },
-    ],
-  },
-  {
-    titolo: "Presenza e stupore",
-    intro: "Uno sguardo che si allena a vedere, non solo a guardare",
-    libri: [
-      {
-        titolo: "La botanica della meraviglia",
-        href: "/tracce/le-letture/botanica-della-meraviglia",
-        img: botanicaMeravigliaImg,
       },
     ],
   },
