@@ -54,6 +54,11 @@ const categorie = [
     intro: "Fare i conti con quello che siamo, senza sconti",
     libri: [
       {
+        titolo: "Liberati della brava bambina",
+        href: "/tracce/le-letture/liberati-della-brava-bambina",
+        img: liberatiDellaBravaBambinaImg,
+      },
+      {
         titolo: "L'ingannevole paura di non essere all'altezza",
         href: "/tracce/le-letture/lingannevole-paura-di-non-essere-allaltezza",
         img: ingannevolePauraImg,
@@ -62,11 +67,6 @@ const categorie = [
         titolo: "Perdonare se stessi e gli altri",
         href: "/tracce/le-letture/perdonare-se-stessi-e-gli-altri",
         img: perdonareSeStessiImg,
-      },
-      {
-        titolo: "Liberati della brava bambina",
-        href: "/tracce/le-letture/liberati-della-brava-bambina",
-        img: liberatiDellaBravaBambinaImg,
       },
     ],
   },
