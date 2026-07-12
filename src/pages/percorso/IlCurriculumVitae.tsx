@@ -33,6 +33,26 @@ const IlCurriculumVitae = () => {
             Scarica il modulo in formato Excel
           </a>
         </p>
+        <p className={pCls}>
+          Scarica il documento in formato Word compilabile a mano dopo aver inserito o tolto le voci che interessano{" "}
+          <a
+            href="/CV_compilabile_mano.docx"
+            download
+            className="underline underline-offset-4 hover:text-foreground transition-colors"
+          >
+            CV_compilabile_mano.docx
+          </a>
+        </p>
+        <p className={pCls}>
+          Scarica il documento in formato Word compilabile a PC{" "}
+          <a
+            href="/CV_compilabile_PC.docx"
+            download
+            className="underline underline-offset-4 hover:text-foreground transition-colors"
+          >
+            CV_compilabile_PC.docx
+          </a>
+        </p>
       </section>
 
       <div className="mt-16 mb-8">
