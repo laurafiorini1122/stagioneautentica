@@ -35,6 +35,43 @@ const LaLineaDelTempo = () => {
         </p>
       </section>
 
+      <section className="mt-16 space-y-4">
+        <p className={pCls}>Alcune schede per stimolare ricordi delle primi fasi della tua vita</p>
+        <p className={pCls}>Rispondi utilizzando dei fogli, un quaderno, colori, immagini,... dai libero sfogo alla tua fantasia e ripercorri la tua vita e i tuoi comportamenti</p>
+        <ul className={`${pCls} list-disc pl-6 space-y-2`}>
+          <li>
+            <a href="/Scheda_Nascita.docx" download className="underline underline-offset-4 hover:text-foreground transition-colors">
+              Scheda della tua nascita
+            </a>
+          </li>
+          <li>
+            <a href="/Scheda_0_5_anni.docx" download className="underline underline-offset-4 hover:text-foreground transition-colors">
+              Scheda da 0 a 5 anni
+            </a>
+          </li>
+          <li>
+            <a href="/Scheda_6_10_anni.docx" download className="underline underline-offset-4 hover:text-foreground transition-colors">
+              Scheda da 6 a 10 anni
+            </a>
+          </li>
+          <li>
+            <a href="/Scheda_11_13_anni.docx" download className="underline underline-offset-4 hover:text-foreground transition-colors">
+              Scheda da 11 a 13 anni
+            </a>
+          </li>
+          <li>
+            <a href="/Scheda_14_19_anni.docx" download className="underline underline-offset-4 hover:text-foreground transition-colors">
+              Scheda da 14 a 18 anni
+            </a>
+          </li>
+          <li>
+            <a href="/Scheda_Lavoro.docx" download className="underline underline-offset-4 hover:text-foreground transition-colors">
+              Scheda Lavoro
+            </a>
+          </li>
+        </ul>
+      </section>
+
       <div className="mt-16 mb-8">
         <Link to="/tracce" className="font-sans text-sm uppercase tracking-[0.25em] text-muted-foreground hover:text-foreground transition-colors">
           ← Torna a Tracce
