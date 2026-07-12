@@ -24,7 +24,15 @@ const LaLineaDelTempo = () => {
         <p className={pCls}>
           Puoi scaricare un esempio da modificare e compilare al PC o da stampare e completare a mano oppure puoi usare un quaderno e prendere ispirazione dai file gestendo gli spazi come meglio credi.
         </p>
-        <p className={pCls}>Esempio in formato Excel</p>
+        <p className={pCls}>
+          <a
+            href="/Linea_Tempo.xlsx"
+            download
+            className="underline underline-offset-4 hover:text-foreground transition-colors"
+          >
+            Esempio in formato Excel
+          </a>
+        </p>
       </section>
 
       <div className="mt-16 mb-8">
