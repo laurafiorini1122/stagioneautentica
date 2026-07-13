@@ -29,6 +29,15 @@ const LalberoGenealogico = () => {
         </p>
         <p className={pCls}>Permette di aggiungere immagini e, per ogni persona, una scheda con molti dati: biografia, informazioni personali e altro ancora. L'albero generato può essere utile come base per crearne uno fai da te, con collage, disegni, stampe fotografiche.</p>
         <p className={pCls}>Anche qui si può realizzare una linea del tempo con le date di nascita ed eventuale morte dei tuoi familiari. Poi, autonomamente, per ciascuna persona puoi creare una scheda per definire le relazioni che avevi con lei.</p>
+        <p className={pCls}>
+          <a
+            href="/Albero_genealogico.xlsx"
+            download
+            className="underline underline-offset-4 hover:text-foreground transition-colors"
+          >
+            Albero genealogico in Excel
+          </a>
+        </p>
         <p className={pCls}>Qui trovi degli spunti da personalizzare:</p>
         <ul className={`${pCls} list-disc pl-6 space-y-2`}>
           <li>
