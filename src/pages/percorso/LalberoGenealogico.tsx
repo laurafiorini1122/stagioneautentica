@@ -29,22 +29,22 @@ const LalberoGenealogico = () => {
         </p>
         <p className={pCls}>Permette di aggiungere immagini e, per ogni persona, una scheda con molti dati: biografia, informazioni personali e altro ancora. L'albero generato può essere utile come base per crearne uno fai da te, con collage, disegni, stampe fotografiche.</p>
         <p className={pCls}>Anche qui si può realizzare una linea del tempo con le date di nascita ed eventuale morte dei tuoi familiari. Poi, autonomamente, per ciascuna persona puoi creare una scheda per definire le relazioni che avevi con lei.</p>
-        <p className={pCls}>In allegato esempi di schede da personalizzare:</p>
+        <p className={pCls}>Qui trovi degli spunti da personalizzare:</p>
         <ul className={`${pCls} list-disc pl-6 space-y-2`}>
           <li>
-            <a href="/Scheda_Genitori.docx" download className="underline underline-offset-4 hover:text-foreground transition-colors">
+            <Link to="/tracce/lalbero-genealogico/genitori" className="underline underline-offset-4 hover:text-foreground transition-colors">
               Le relazioni con i genitori
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/Scheda_Fratelli_Sorelle.docx" download className="underline underline-offset-4 hover:text-foreground transition-colors">
+            <Link to="/tracce/lalbero-genealogico/fratelli-e-sorelle" className="underline underline-offset-4 hover:text-foreground transition-colors">
               Le relazioni con fratelli / sorelle
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/Scheda_Parenti.docx" download className="underline underline-offset-4 hover:text-foreground transition-colors">
+            <Link to="/tracce/lalbero-genealogico/parenti" className="underline underline-offset-4 hover:text-foreground transition-colors">
               Le relazioni con i parenti
-            </a>
+            </Link>
           </li>
         </ul>
         <p className={pCls}>Usa questi spunti per compilare un tuo profilo delle persone che compongono il tuo albero genealogico. Puoi realizzare un quaderno tutto tuo, arricchito con immagini e scritte colorate.</p>

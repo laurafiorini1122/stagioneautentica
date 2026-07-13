@@ -13,6 +13,9 @@ import IlNuovoTempo from "./pages/percorso/IlNuovoTempo.tsx";
 import IlCurriculumVitae from "./pages/percorso/IlCurriculumVitae.tsx";
 import LaLineaDelTempo from "./pages/percorso/LaLineaDelTempo.tsx";
 import LalberoGenealogico from "./pages/percorso/LalberoGenealogico.tsx";
+import RelazioniGenitori from "./pages/percorso/RelazioniGenitori.tsx";
+import RelazioniFratelliSorelle from "./pages/percorso/RelazioniFratelliSorelle.tsx";
+import RelazioniParenti from "./pages/percorso/RelazioniParenti.tsx";
 import Incontri from "./pages/percorso/Incontri.tsx";
 import Viaggi from "./pages/percorso/Viaggi.tsx";
 import IlCurriculumDellAutostima from "./pages/percorso/IlCurriculumDellAutostima.tsx";
@@ -176,6 +179,9 @@ const App = () => (
           <Route path="/tracce/il-curriculum-vitae" element={<IlCurriculumVitae />} />
           <Route path="/tracce/la-linea-del-tempo" element={<LaLineaDelTempo />} />
           <Route path="/tracce/lalbero-genealogico" element={<LalberoGenealogico />} />
+          <Route path="/tracce/lalbero-genealogico/genitori" element={<RelazioniGenitori />} />
+          <Route path="/tracce/lalbero-genealogico/fratelli-e-sorelle" element={<RelazioniFratelliSorelle />} />
+          <Route path="/tracce/lalbero-genealogico/parenti" element={<RelazioniParenti />} />
           <Route path="/tracce/incontri" element={<Incontri />} />
           <Route path="/tracce/viaggi" element={<Viaggi />} />
           <Route path="/tracce/il-curriculum-dellautostima" element={<IlCurriculumDellAutostima />} />
