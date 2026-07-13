@@ -15,7 +15,18 @@ const LalberoGenealogico = () => {
 
       <section className="mt-16 space-y-6">
         <h2 className="font-serif text-2xl md:text-3xl text-foreground/70 tracking-tight mb-6">Strumenti</h2>
-        <p className={pCls}>La rete offre molte risorse per compilare l'albero genealogico. Io ho utilizzato MyHeritage, gratuito fino alla compilazione dell'albero personale.</p>
+        <p className={pCls}>
+          La rete offre molte risorse per compilare l'albero genealogico. Io ho utilizzato{" "}
+          <a
+            href="http://myheritage.it/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-4 hover:text-foreground transition-colors"
+          >
+            MyHeritage
+          </a>
+          , gratuito fino alla compilazione dell'albero personale.
+        </p>
         <p className={pCls}>Permette di aggiungere immagini e, per ogni persona, una scheda con molti dati: biografia, informazioni personali e altro ancora. L'albero generato può essere utile come base per crearne uno fai da te, con collage, disegni, stampe fotografiche.</p>
         <p className={pCls}>Anche qui si può realizzare una linea del tempo con le date di nascita ed eventuale morte dei tuoi familiari. Poi, autonomamente, per ciascuna persona puoi creare una scheda per definire le relazioni che avevi con lei.</p>
         <p className={pCls}>In allegato esempi di schede da personalizzare:</p>
