@@ -5,6 +5,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Index from "./pages/Index.tsx";
 import NotFound from "./pages/NotFound.tsx";
+import ComingSoon from "./pages/ComingSoon.tsx";
 import UnUomo from "./pages/UnUomo.tsx";
 import UnaDonna from "./pages/UnaDonna.tsx";
 import Tracce from "./pages/Tracce.tsx";
@@ -103,12 +104,24 @@ import IlGruppoWhatsappDonna from "./pages/racconti/IlGruppoWhatsappDonna.tsx";
 
 const queryClient = new QueryClient();
 
+// Interruttore di manutenzione: quando VITE_MAINTENANCE_MODE è "true"
+// (impostato nelle variabili d'ambiente di Vercel, non in locale),
+// il sito pubblico mostra solo la pagina ComingSoon. In locale, con
+// `npm run dev`, questa variabile non è impostata: il sito completo
+// resta sempre visibile per continuare a lavorarci.
+const MAINTENANCE_MODE = import.meta.env.VITE_MAINTENANCE_MODE === "true";
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        {MAINTENANCE_MODE ? (
+          <Routes>
+            <Route path="*" element={<ComingSoon />} />
+          </Routes>
+        ) : (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/un-uomo" element={<UnUomo />} />
@@ -210,6 +223,7 @@ const App = () => (
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
+        )}
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
